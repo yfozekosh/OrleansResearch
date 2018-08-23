@@ -1,17 +1,31 @@
 version: '3.4'
 
 services:
-  miteam.orleansresearch.silohost:
-    image: ${DOCKER_REGISTRY}miteamorleansresearchsilohost
-    build:
-      context: .
-      dockerfile: MITeam.OrleansResearch.SiloHost/Dockerfile
-
-  miteam.orleansresearch.webclient:
-    image: ${DOCKER_REGISTRY}miteamorleansresearchwebclient
+  webclient:
+    image: webclient
     build:
       context: .
       dockerfile: MITeam.OrleansResearch.WebClient/Dockerfile
+    depends_on:
+      - silodashboard
+      - silohost
+      - researchdb
+      
+  silohost:
+    image: silohost
+    build:
+      context: .
+      dockerfile: MITeam.OrleansResearch.SiloHost/Dockerfile
+    depends_on:
+      - silodashboard
+      - researchdb
+
+  silodashboard:
+    image: silohost
+    ports:
+      - "8090:8090"
+    depends_on:
+      - researchdb
 
   researchdb:
     image: yfozekosh/mssql-orleans
