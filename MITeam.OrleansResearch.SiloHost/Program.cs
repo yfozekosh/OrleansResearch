@@ -46,7 +46,7 @@ namespace MITeam.OrleansResearch.SiloHost
                 {
                     options.Invariant = "System.Data.SqlClient";
                     options.ConnectionString =
-                        "Data Source=orledb;Initial Catalog=OrleDb;Persist Security Info=True;User ID=sa;Password=OrleDBP@asswor1d";
+                        "Data Source=researchdb;Initial Catalog=OrleDb;Persist Security Info=True;User ID=sa;Password=OrleDBP@asswor1d";
                 })
                 .ConfigureEndpoints(siloPort: 11111, gatewayPort: 30000)
                 .UseDashboard(options => { options.Port = 8090; })

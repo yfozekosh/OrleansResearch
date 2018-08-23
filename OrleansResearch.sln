@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26124.0
 MinimumVisualStudioVersion = 15.0.26124.0
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrleansResearch.GrainContracts", "MITeam.OrleansResearch.GrainContracts\MITeam.OrleansResearch.GrainContracts.csproj", "{1E1008C9-3802-45D7-A252-7540DF7AAD13}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MITeam.OrleansResearch.GrainContracts", "MITeam.OrleansResearch.GrainContracts\MITeam.OrleansResearch.GrainContracts.csproj", "{1E1008C9-3802-45D7-A252-7540DF7AAD13}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MITeam.OrleansResearch.GrainImplementation", "MITeam.OrleansResearch.GrainImplementation\MITeam.OrleansResearch.GrainImplementation.csproj", "{A2F6B17F-CE51-4538-8715-88E975641CC8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MITeam.OrleansResearch.GrainImplementation", "MITeam.OrleansResearch.GrainImplementation\MITeam.OrleansResearch.GrainImplementation.csproj", "{A2F6B17F-CE51-4538-8715-88E975641CC8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MITeam.OrleansResearch.SiloHost", "MITeam.OrleansResearch.SiloHost\MITeam.OrleansResearch.SiloHost.csproj", "{BF9BCC0C-C0DB-4043-A190-2F42C7A2FE49}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MITeam.OrleansResearch.SiloHost", "MITeam.OrleansResearch.SiloHost\MITeam.OrleansResearch.SiloHost.csproj", "{BF9BCC0C-C0DB-4043-A190-2F42C7A2FE49}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MITeam.OrleansResearch.WebClient", "MITeam.OrleansResearch.WebClient\MITeam.OrleansResearch.WebClient.csproj", "{68A2A742-8E42-4BCB-9584-DFB8A8363250}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MITeam.OrleansResearch.WebClient", "MITeam.OrleansResearch.WebClient\MITeam.OrleansResearch.WebClient.csproj", "{68A2A742-8E42-4BCB-9584-DFB8A8363250}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{A71CE417-2241-4A95-AA14-C7655CBAFAA5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,9 +21,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 		Release|x64 = Release|x64
 		Release|x86 = Release|x86
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{1E1008C9-3802-45D7-A252-7540DF7AAD13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -72,5 +71,23 @@ Global
 		{68A2A742-8E42-4BCB-9584-DFB8A8363250}.Release|x64.Build.0 = Release|Any CPU
 		{68A2A742-8E42-4BCB-9584-DFB8A8363250}.Release|x86.ActiveCfg = Release|Any CPU
 		{68A2A742-8E42-4BCB-9584-DFB8A8363250}.Release|x86.Build.0 = Release|Any CPU
+		{A71CE417-2241-4A95-AA14-C7655CBAFAA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A71CE417-2241-4A95-AA14-C7655CBAFAA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A71CE417-2241-4A95-AA14-C7655CBAFAA5}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{A71CE417-2241-4A95-AA14-C7655CBAFAA5}.Debug|x64.Build.0 = Debug|Any CPU
+		{A71CE417-2241-4A95-AA14-C7655CBAFAA5}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{A71CE417-2241-4A95-AA14-C7655CBAFAA5}.Debug|x86.Build.0 = Debug|Any CPU
+		{A71CE417-2241-4A95-AA14-C7655CBAFAA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A71CE417-2241-4A95-AA14-C7655CBAFAA5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A71CE417-2241-4A95-AA14-C7655CBAFAA5}.Release|x64.ActiveCfg = Release|Any CPU
+		{A71CE417-2241-4A95-AA14-C7655CBAFAA5}.Release|x64.Build.0 = Release|Any CPU
+		{A71CE417-2241-4A95-AA14-C7655CBAFAA5}.Release|x86.ActiveCfg = Release|Any CPU
+		{A71CE417-2241-4A95-AA14-C7655CBAFAA5}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8E26F0D8-D6EC-4E0F-9BE5-5567D072BC6B}
 	EndGlobalSection
 EndGlobal

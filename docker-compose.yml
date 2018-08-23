@@ -1,0 +1,17 @@
+version: '3.4'
+
+services:
+  miteam.orleansresearch.silohost:
+    image: ${DOCKER_REGISTRY}miteamorleansresearchsilohost
+    build:
+      context: .
+      dockerfile: MITeam.OrleansResearch.SiloHost/Dockerfile
+
+  miteam.orleansresearch.webclient:
+    image: ${DOCKER_REGISTRY}miteamorleansresearchwebclient
+    build:
+      context: .
+      dockerfile: MITeam.OrleansResearch.WebClient/Dockerfile
+
+  researchdb:
+    image: yfozekosh/mssql-orleans

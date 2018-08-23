@@ -27,7 +27,7 @@ namespace MITeam.OrleansResearch.WebClient
                 {
                     options.Invariant = "System.Data.SqlClient";
                     options.ConnectionString =
-                        "Data Source=localhost,1435;Initial Catalog=OrleDb;Persist Security Info=True;User ID=sa;Password=OrleDBP@asswor1d";
+                        "Data Source=researchdb;Initial Catalog=OrleDb;Persist Security Info=True;User ID=sa;Password=OrleDBP@asswor1d";
                 })
                 .ConfigureLogging(builder => builder.SetMinimumLevel(LogLevel.Warning).AddConsole());
 
