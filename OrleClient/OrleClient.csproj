@@ -7,16 +7,15 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Microsoft.Orleans.Client" Version="2.0.3" />
     <PackageReference Include="Microsoft.Orleans.Clustering.AdoNet" Version="2.0.0" />
     <PackageReference Include="Microsoft.Orleans.OrleansCodeGenerator.Build" Version="2.0.4" />
-    <PackageReference Include="Microsoft.Orleans.Server" Version="2.0.4" />
-    <PackageReference Include="OrleansDashboard" Version="2.0.8" />
     <PackageReference Include="System.Data.SqlClient" Version="4.5.1" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Console" Version="2.1.0" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\GrainContracts\GrainContracts.csproj" />
-    <ProjectReference Include="..\GrainImpl\GrainImpl.csproj" />
   </ItemGroup>
 
 </Project>
