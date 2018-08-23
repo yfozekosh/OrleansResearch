@@ -27,7 +27,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\GrainContracts\GrainContracts.csproj" />
+    <ProjectReference Include="..\MITeam.OrleansResearch.GrainContracts\MITeam.OrleansResearch.GrainContracts.csproj" />
   </ItemGroup>
 
 </Project>

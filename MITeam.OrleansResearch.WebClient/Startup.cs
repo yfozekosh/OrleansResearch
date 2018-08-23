@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.DependencyInjection;
 using Orleans;
 
-namespace WebApplication1
+namespace MITeam.OrleansResearch.WebClient
 {
     public class Startup
     {

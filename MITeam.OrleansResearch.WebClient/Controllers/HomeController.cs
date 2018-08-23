@@ -2,9 +2,9 @@
 using GrainContracts;
 using Microsoft.AspNetCore.Mvc;
 using Orleans;
-using WebApplication1.Model;
+using MITeam.OrleansResearch.WebClient.Model;
 
-namespace WebApplication1.Controllers
+namespace MITeam.OrleansResearch.WebClient.Controllers
 {
     public class HomeController : Controller
     {

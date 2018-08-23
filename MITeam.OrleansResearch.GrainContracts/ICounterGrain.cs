@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Threading.Tasks;
 
-namespace GrainContracts
+namespace MITeam.OrleansResearch.GrainContracts
 {
     public interface ICounterGrain : Orleans.IGrainWithIntegerKey
     {

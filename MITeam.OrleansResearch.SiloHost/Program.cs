@@ -10,7 +10,7 @@ using Orleans.Configuration;
 using Orleans.Hosting;
 using Orleans.Logging;
 
-namespace Orle3
+namespace MITeam.OrleansResearch.SiloHost
 {
     public static class Program
     {

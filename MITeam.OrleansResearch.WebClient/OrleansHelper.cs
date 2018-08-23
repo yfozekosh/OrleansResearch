@@ -8,7 +8,7 @@ using Orleans.Configuration;
 using Orleans.Hosting;
 using Orleans.Runtime;
 
-namespace WebApplication1
+namespace MITeam.OrleansResearch.WebClient
 {
     public static class OrleansHelper
     {

@@ -1,7 +1,7 @@
 ﻿using System.Threading.Tasks;
-using GrainContracts;
+using MITeam.OrleansResearch.GrainContracts;
 
-namespace GrainImpl
+namespace MITeam.OrleansResearch.GrainImplementation
 {
     public class CounterGrain : Orleans.Grain, ICounterGrain
     {
