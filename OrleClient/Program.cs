@@ -23,24 +23,22 @@ namespace OrleClient
                 {
                     options.Invariant = "System.Data.SqlClient";
                     options.ConnectionString =
-                        "Data Source=localhost,1434;Initial Catalog=OrleDb;Persist Security Info=True;User ID=sa;Password=123456";
+                        "Data Source=localhost,1435;Initial Catalog=OrleDb;Persist Security Info=True;User ID=sa;Password=OrleDBP@asswor1d";
                 })
                 .ConfigureLogging(builder => builder.SetMinimumLevel(LogLevel.Warning).AddConsole());
 
             using (IClusterClient client = clientBuilder.Build())
             {
-                await Task.Delay(TimeSpan.FromSeconds(10));
-
-                await client.Connect();
+                await client.Connect(exception => Task.FromResult(true));
                 while (true)
                 {
                     Console.Write("please write ID\r\n>>>");
                     int id = int.Parse(Console.ReadLine());
                     if (id==-1) break;
                     
-                    IHello hello = client.GetGrain<IHello>(id);
+                    ICounterGrain counterGrain = client.GetGrain<ICounterGrain>(id);
 
-                    var res = await hello.SayHello("hohoh");
+                    var res = await counterGrain.GetCount();
 
                     Console.WriteLine($"Received: {res}");
                 }

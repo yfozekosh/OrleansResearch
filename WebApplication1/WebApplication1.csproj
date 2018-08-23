@@ -1,0 +1,33 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <DockerComposeProjectPath>..\docker-compose.dcproj</DockerComposeProjectPath>
+    <UserSecretsId>c197ff89-7fc5-485d-9368-bb466c48b25f</UserSecretsId>
+  </PropertyGroup>
+
+  <PropertyGroup>
+  	<PublishWithAspNetCoreTargetManifest>false</PublishWithAspNetCoreTargetManifest>
+  </PropertyGroup>
+  
+  <ItemGroup>
+    <Folder Include="wwwroot\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App"/>
+    <PackageReference Include="Microsoft.AspNetCore.Mvc" Version="2.1.2" />
+
+    <!-- ORLEANS CLIENT-->
+    <PackageReference Include="Microsoft.Orleans.Client" Version="2.0.3" />
+    <PackageReference Include="Microsoft.Orleans.Clustering.AdoNet" Version="2.0.0" />
+    <PackageReference Include="Microsoft.Orleans.OrleansCodeGenerator.Build" Version="2.0.4" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.5.1" />
+    <!-- ORLEANS CLIENT END-->   
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\GrainContracts\GrainContracts.csproj" />
+  </ItemGroup>
+
+</Project>

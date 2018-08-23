@@ -8,6 +8,7 @@ using Microsoft.Extensions.Logging;
 using Orleans;
 using Orleans.Configuration;
 using Orleans.Hosting;
+using Orleans.Logging;
 
 namespace Orle3
 {
@@ -18,8 +19,9 @@ namespace Orle3
             try
             {
                 var host = await StartSilo();
-                Console.WriteLine("Press Enter to terminate...");
-                Console.ReadLine();
+                
+                // hack
+                await Task.Delay(TimeSpan.FromDays(1));
 
                 await host.StopAsync();
 
@@ -28,18 +30,12 @@ namespace Orle3
             catch (Exception ex)
             {
                 Console.WriteLine(ex);
-                Console.ReadKey();
                 return 1;
             }
         }
 
         private static async Task<ISiloHost> StartSilo()
         {
-            Console.Write("Port\r\n>>>");
-
-
-            int p = int.Parse(Console.ReadLine());
-
             var builder = new SiloHostBuilder()
                 .Configure<ClusterOptions>(options =>
                 {
@@ -50,13 +46,16 @@ namespace Orle3
                 {
                     options.Invariant = "System.Data.SqlClient";
                     options.ConnectionString =
-                        "Data Source=localhost,1434;Initial Catalog=OrleDb;Persist Security Info=True;User ID=sa;Password=123456";
+                        "Data Source=orledb;Initial Catalog=OrleDb;Persist Security Info=True;User ID=sa;Password=OrleDBP@asswor1d";
                 })
-                .ConfigureEndpoints(siloPort: p, gatewayPort: 30000)
-                //.ConfigureApplicationParts(parts =>
-                //    parts.AddApplicationPart(typeof(IHello).Assembly).WithReferences())
+                .ConfigureEndpoints(siloPort: 11111, gatewayPort: 30000)
                 .UseDashboard(options => { options.Port = 8090; })
-                .ConfigureLogging(loggingBuilder => loggingBuilder.SetMinimumLevel(LogLevel.Warning).AddConsole());
+                .ConfigureLogging(loggingBuilder =>
+                {
+                    loggingBuilder.SetMinimumLevel(LogLevel.Warning).AddFile("log.warn.txt");
+                    loggingBuilder.SetMinimumLevel(LogLevel.Information).AddFile("log.info.txt");
+                    loggingBuilder.SetMinimumLevel(LogLevel.Debug).AddFile("log.debug.txt");
+                });
 
             var host = builder.Build();
             await host.StartAsync();

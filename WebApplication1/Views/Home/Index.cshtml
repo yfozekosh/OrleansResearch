@@ -1,0 +1,15 @@
+﻿@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@addTagHelper *, AuthoringTagHelpers
+@model WebApplication1.Model.CountModel
+
+@{
+    ViewBag.Title = "title";
+    Layout = "_Layout";
+}
+
+<form asp-controller="Home" asp-action="CallGrain">
+    <input type="number" asp-for="GrainId" />
+    <h1>Count: @Model.Count</h1>
+    <input type="submit" name="submitButton" value="Refresh" />
+    <input type="submit" name="submitButton" value="Increment" />
+</form>

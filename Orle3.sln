@@ -12,8 +12,16 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrleClient", "OrleClient\OrleClient.csproj", "{644C7B23-1EA7-45E3-8A27-C8756947F25C}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionItems", "SolutionItems", "{9DEF228E-FD22-466F-9F54-EE62DC2906BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication1", "WebApplication1\WebApplication1.csproj", "{02C8022B-B29E-46FF-B2CE-CCD1AE77D13B}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{C086612B-AF6C-47CA-B4C0-780881A72500}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Deploy", "Deploy", "{110B2ADE-0868-45F6-BCFB-47CB2DD51795}"
 	ProjectSection(SolutionItems) = preProject
-		Init.sql = Init.sql
+		Deploy\000_create_db.sql = Deploy\000_create_db.sql
+		Deploy\sql.dockerfile = Deploy\sql.dockerfile
+		Deploy\sqlBuild.sh = Deploy\sqlBuild.sh
 	EndProjectSection
 EndProject
 Global
@@ -38,6 +46,14 @@ Global
 		{644C7B23-1EA7-45E3-8A27-C8756947F25C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{644C7B23-1EA7-45E3-8A27-C8756947F25C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{644C7B23-1EA7-45E3-8A27-C8756947F25C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02C8022B-B29E-46FF-B2CE-CCD1AE77D13B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02C8022B-B29E-46FF-B2CE-CCD1AE77D13B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02C8022B-B29E-46FF-B2CE-CCD1AE77D13B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02C8022B-B29E-46FF-B2CE-CCD1AE77D13B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C086612B-AF6C-47CA-B4C0-780881A72500}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C086612B-AF6C-47CA-B4C0-780881A72500}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C086612B-AF6C-47CA-B4C0-780881A72500}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C086612B-AF6C-47CA-B4C0-780881A72500}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
