@@ -1,5 +1,5 @@
 ﻿using System.Threading.Tasks;
-using GrainContracts;
+using MITeam.OrleansResearch.GrainContracts;
 using Microsoft.AspNetCore.Mvc;
 using Orleans;
 using MITeam.OrleansResearch.WebClient.Model;

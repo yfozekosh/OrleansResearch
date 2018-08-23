@@ -2,8 +2,8 @@
 using System.Net;
 using System.Net.Sockets;
 using System.Threading.Tasks;
-using GrainContracts;
-using GrainImpl;
+using MITeam.OrleansResearch.GrainContracts;
+using MITeam.OrleansResearch.GrainImplementation;
 using Microsoft.Extensions.Logging;
 using Orleans;
 using Orleans.Configuration;

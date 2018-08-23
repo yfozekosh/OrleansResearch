@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26124.0
 MinimumVisualStudioVersion = 15.0.26124.0
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrleansResearch.GrainContracts", "MITeam.OrleansResearch.GrainContracts\OrleansResearch.GrainContracts.csproj", "{1E1008C9-3802-45D7-A252-7540DF7AAD13}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrleansResearch.GrainContracts", "MITeam.OrleansResearch.GrainContracts\MITeam.OrleansResearch.GrainContracts.csproj", "{1E1008C9-3802-45D7-A252-7540DF7AAD13}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MITeam.OrleansResearch.GrainImplementation", "MITeam.OrleansResearch.GrainImplementation\MITeam.OrleansResearch.GrainImplementation.csproj", "{A2F6B17F-CE51-4538-8715-88E975641CC8}"
 EndProject
