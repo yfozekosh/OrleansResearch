@@ -7,43 +7,25 @@ This project is just for Research purposes. Planning to keep here different PoCs
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. 
 
 
-### Installing
+### Running
 
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
-
+Start PoC by using
 ```
-Give the example
+sh run_cluster_6_silos.sh
 ```
 
-And repeat
+Now hout can access webClient on http://localhost:63061/Home or https://localhost:44362/.
+Orleans dashboard: http://localhost:8090
 
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
+You can use VisualStudio to run and debug the project.
 
 ## Running the tests
 
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
+No tests were made.
 
 ### And coding style tests
 
-Explain what these tests test and why
-
-```
-Give an example
-```
+No coding style! Do what you want \0/ ! or just use Resharper convention.
 
 ## Tools used for research
 
