@@ -38,7 +38,7 @@ No coding style! Do what you want \0/ ! or just use Resharper convention.
 * **Yurii Fozekosh** - *Mentee* - [YFozekosh](https://github.com/yfozekosh)
 * **Serhii Trush** - *Mentee* - ??
 
-See also the list of [contributors](https://github.com/OrleansResearch/contributors) who participated in this project.
+See also the list of [contributors](https://github.com/mentorship-idea-research/contributors) who participated in this project.
 
 ## License
 
