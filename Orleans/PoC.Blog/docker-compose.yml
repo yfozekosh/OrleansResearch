@@ -2,7 +2,7 @@ version: '3.4'
 
 services:
   poc.blog.silohost:
-    image: silohost:latest
+    image: ${DOCKER_REGISTRY}pocblogsilohost
     build:
       context: .
       dockerfile: PoC.Blog.SiloHost/Dockerfile
@@ -13,7 +13,7 @@ services:
   blogging.db.srv:
     image: blogging.db.srv:latest
     build:
-      context: .
+      context: DBDeploy
       dockerfile: blogging.db.srv.dockerfile
     environment: 
       - POSTGRES_PASSWORD=BloggingD!Bpasswor_D
@@ -23,9 +23,18 @@ services:
   orleans.db.srv:
     image: orleans.db.postgresql:latest
     build:
-      context: .
+      context: DBDeploy
       dockerfile: orleans.db.srv.dockerfile
     environment: 
       - POSTGRES_PASSWORD=Orleans!Bpasswor_D
     ports:
-      - "1433:5432"
+      - "5433:5432"
+
+  poc.blog.webclient:
+    image: ${DOCKER_REGISTRY}pocblogwebclient
+    build:
+      context: .
+      dockerfile: PoC.Blog.WebClient/Dockerfile
+    depends_on:
+      - orleans.db.srv
+      - poc.blog.silohost

@@ -16,4 +16,9 @@
     <PackageReference Include="Npgsql" Version="4.0.2" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\PoC.Blog.GrainContracts\PoC.Blog.GrainContracts.csproj" />
+    <ProjectReference Include="..\PoC.Blog.GrainImplementation\PoC.Blog.GrainImplementation.csproj" />
+  </ItemGroup>
+
 </Project>

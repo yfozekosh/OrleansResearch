@@ -1,0 +1,6 @@
+{
+  "ConnectionStrings": {
+    "OrleDb": "Host=orleans.db.srv;Port=5432;Database=PoC_Blog_ClusteringDb;Username=postgres;Password=Orleans!Bpasswor_D",
+    "BloggingContext": "Host=blogging.db.srv;Port=5432;Database=PoC_Blog_BloggingDb;Username=postgres;Password=BloggingD!Bpasswor_D"
+  }
+}

@@ -1,13 +1,15 @@
 ﻿using System;
 using System.IO;
-using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
 using Npgsql;
+using Orleans;
 using Orleans.Configuration;
 using Orleans.Hosting;
 using Orleans.Logging;
+using PoC.Blog.GrainContracts;
+using PoC.Blog.GrainImplementation;
 
 namespace PoC.Blog.SiloHost
 {
@@ -19,10 +21,9 @@ namespace PoC.Blog.SiloHost
         {
             var currentDirectory = Directory.GetCurrentDirectory();
             var configDirectory = Path.Combine(currentDirectory, "..", "config");
-            var entries = Directory.GetFileSystemEntries(currentDirectory);
 
             IConfigurationBuilder builder = new ConfigurationBuilder()
-                .SetBasePath(currentDirectory)
+                .SetBasePath(configDirectory)
                 .AddJsonFile("db-settings.json");
             Configuration = builder.Build();
 
@@ -54,13 +55,16 @@ namespace PoC.Blog.SiloHost
                 {
                     loggingBuilder.SetMinimumLevel(LogLevel.Information).AddFile("log.info.txt");
                     loggingBuilder.SetMinimumLevel(LogLevel.Debug).AddFile("log.debug.txt");
-                });
+                })
+                .ConfigureApplicationParts(parts =>
+                    parts.AddApplicationPart(typeof(UserRegistry).Assembly).WithReferences());
 
 
             ISiloHost host = siloHostBuilder.Build();
 
             await host.StartAsync();
 
+            Console.WriteLine("Silo started");
             await Task.Delay(TimeSpan.FromTicks(int.MaxValue));
         }
 
@@ -76,7 +80,7 @@ namespace PoC.Blog.SiloHost
                         connection.Close();
                         break;
                     }
-                    catch (Exception e)
+                    catch (Exception)
                     {
                         Console.WriteLine("Connection refused. Waiting 5 sec...");
                         await Task.Delay(TimeSpan.FromSeconds(5));

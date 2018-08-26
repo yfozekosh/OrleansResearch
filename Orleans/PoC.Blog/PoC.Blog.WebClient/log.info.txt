@@ -1,0 +1,1024 @@
+﻿[2018-08-26 11:16:32.118 GMT 13	Information	100313	Orleans.OutsideRuntimeClient]	---------- Initializing OutsideRuntimeClient on aa0b96dfff62 at 172.22.0.5 Client Id = *cli/d0c96ea5 ----------	
+[2018-08-26 11:16:32.202 GMT 13	Information	100314	Orleans.OutsideRuntimeClient]	---------- Starting OutsideRuntimeClient with runtime Version='2.0.3. Commit Hash: c5432c1809a37f12142fb1c489fb0a4f77ed3bda (Release).' in AppDomain=<AppDomain.Id=1, AppDomain.FriendlyName=PoC.Blog.WebClient>	
+[2018-08-26 11:16:33.958 GMT 5	Information	101309	Orleans.Messaging.GatewayManager]	Found 1 knownGateways from Gateway listProvider [gwy.tcp://172.22.0.4:30000/272978118]	
+[2018-08-26 11:16:33.963 GMT 5	Debug	101404	Orleans.Runtime.SafeTimer]	Creating timer Orleans.Runtime.sync.SafeTimerBase with dueTime=00:01:00 period=00:01:00	
+[2018-08-26 11:16:33.964 GMT 5	Debug	0	Orleans.Messaging.ClientMessageCenter]	Proxy grain client constructed	
+[2018-08-26 11:16:33.964 GMT 5	Debug	0	Orleans.Messaging.ClientMessageCenter]	Proxy grain client started	
+[2018-08-26 11:16:34.010 GMT 5	Debug	101404	Orleans.Runtime.SafeTimer]	Creating timer Orleans.Runtime.sync.SafeTimerBase with dueTime=00:30:00 period=-00:00:00.0010000	
+[2018-08-26 11:16:34.025 GMT 5	Debug	0	Orleans.Messaging.ClientMessageCenter]	Creating gateway to gwy.tcp://172.22.0.4:30000/272978118 for pre-addressed message	
+[2018-08-26 11:16:34.026 GMT 5	Debug	100914	Messaging.GatewayConnection/GatewayClientSender_gwy.tcp://172.22.0.4:30000/272978118]	Starting gateway connection for gateway gwy.tcp://172.22.0.4:30000/272978118	
+[2018-08-26 11:16:39.036 GMT 5	Warning	100178	Messaging.GatewayConnection/GatewayClientSender_gwy.tcp://172.22.0.4:30000/272978118]	Unable to connect to gateway at address gwy.tcp://172.22.0.4:30000/272978118 on trial 0 (Exception: Connection to 172.22.0.4:30000 could not be established in 00:00:05)	
+[2018-08-26 11:16:39.038 GMT 5	Warning	100913	Messaging.GatewayConnection/GatewayClientSender_gwy.tcp://172.22.0.4:30000/272978118]	Marking gateway at address gwy.tcp://172.22.0.4:30000/272978118 as Disconnected	
+[2018-08-26 11:16:39.107 GMT 12	Debug	0	Orleans.Messaging.GatewayManager]	Found 1 knownGateways from Gateway listProvider [gwy.tcp://172.22.0.4:30000/272978118]	
+[2018-08-26 11:16:39.116 GMT 12	Information	101309	Orleans.Messaging.GatewayManager]	Refreshed the live Gateway list. Found 1 gateways from Gateway listProvider: [gwy.tcp://172.22.0.4:30000/272978118]. Picked only known live out of them. Now has 1 live Gateways: [gwy.tcp://172.22.0.4:30000/272978118]. Previous refresh time was = 08/26/2018 11:16:33	
+[2018-08-26 11:16:39.131 GMT 5	Information	100908	Messaging.GatewayConnection/GatewayClientSender_gwy.tcp://172.22.0.4:30000/272978118]	Connected to gateway at address gwy.tcp://172.22.0.4:30000/272978118 on trial 1.	
+[2018-08-26 11:16:39.150 GMT 5	Debug	0	Messaging.GatewayClientReceiver/gwy.tcp://172.22.0.4:30000/272978118]	Started asynch agent Messaging.GatewayClientReceiver/gwy.tcp://172.22.0.4:30000/272978118	
+[2018-08-26 11:16:39.153 GMT 4	Information	0	Messaging.GatewayClientReceiver/gwy.tcp://172.22.0.4:30000/272978118]	Starting AsyncAgent Messaging.GatewayClientReceiver/gwy.tcp://172.22.0.4:30000/272978118 on managed thread 4	
+[2018-08-26 11:16:39.156 GMT 5	Debug	0	Messaging.GatewayConnection/GatewayClientSender_gwy.tcp://172.22.0.4:30000/272978118]	Started asynch agent Messaging.GatewayConnection/GatewayClientSender_gwy.tcp://172.22.0.4:30000/272978118	
+[2018-08-26 11:16:39.163 GMT 15	Information	0	Messaging.GatewayConnection/GatewayClientSender_gwy.tcp://172.22.0.4:30000/272978118]	Starting AsyncAgent Messaging.GatewayConnection/GatewayClientSender_gwy.tcp://172.22.0.4:30000/272978118 on managed thread 15	
+[2018-08-26 11:16:39.388 GMT 14	Debug	101408	Orleans.Runtime.SafeTimer]	Disposing timer Orleans.Runtime.sync.SafeTimerBase	
+[2018-08-26 11:16:39.419 GMT 5	Debug	101404	Orleans.OutsideRuntimeClient]	Creating timer Orleans.Runtime.asynTask.SafeTimerBase with dueTime=00:01:00 period=00:01:00	
+[2018-08-26 11:16:39.421 GMT 5	Debug	101404	Orleans.Runtime.AsyncTaskSafeTimer]	Creating timer Orleans.Runtime.asynTask.SafeTimerBase with dueTime=00:05:00 period=00:05:00	
+[2018-08-26 11:16:39.429 GMT 5	Debug	101404	Orleans.Runtime.SafeTimer]	Creating timer Orleans.Runtime.sync.SafeTimerBase with dueTime=00:30:00 period=-00:00:00.0010000	
+[2018-08-26 11:16:39.445 GMT 14	Debug	101408	Orleans.Runtime.SafeTimer]	Disposing timer Orleans.Runtime.sync.SafeTimerBase	
+[2018-08-26 11:16:39.454 GMT 5	Information	100929	Orleans.OutsideRuntimeClient]	---------- Started OutsideRuntimeClient with Global Client ID: C172.22.0.5:0:-272978193*cli/d0c96ea5@4eecc28d, client GUID ID: *cli/d0c96ea5	
+[2018-08-26 11:16:39.475 GMT 5	Information	0	Orleans.ClientOptionsLogger]	Configuration Orleans.Configuration.ClientMessagingOptions: 
+ClientSenderBuckets: 8192
+PreferredFamily: InterNetwork
+NetworkInterfaceName: 
+ResponseTimeout: 00:30:00
+ResponseTimeoutWithDebugger: 00:30:00
+MaxResendCount: 0
+ResendOnTimeout: False
+DropExpiredMessages: True
+BufferPoolBufferSize: 4096
+BufferPoolMaxSize: 10000
+BufferPoolPreallocationSize: 250
+PropagateActivityId: False
+	
+[2018-08-26 11:16:39.477 GMT 5	Information	0	Orleans.ClientOptionsLogger]	Configuration Orleans.Configuration.ClientStatisticsOptions: 
+PerfCountersWriteInterval: -00:00:00.0010000
+LogWriteInterval: 00:05:00
+CollectionLevel: Info
+	
+[2018-08-26 11:16:39.477 GMT 5	Information	0	Orleans.ClientOptionsLogger]	Configuration Orleans.Configuration.ClusterOptions: 
+ClusterId: PoC.Blog.BloggingCluster
+ServiceId: PoC.Blog.SiloHost
+	
+[2018-08-26 11:16:39.477 GMT 5	Information	0	Orleans.ClientOptionsLogger]	Configuration Orleans.Configuration.NetworkingOptions: 
+OpenConnectionTimeout: 00:00:05
+MaxSocketAge: 10675199.02:48:05.4775807
+	
+[2018-08-26 11:16:39.477 GMT 5	Information	100452	Orleans.LifecycleSubject]	Starting lifecycle stage -2147483648 took 15 Milliseconds	
+[2018-08-26 11:17:34.007 GMT 16	Debug	0	Orleans.Messaging.GatewayManager]	Found 1 knownGateways from Gateway listProvider [gwy.tcp://172.22.0.4:30000/272978118]	
+[2018-08-26 11:17:34.008 GMT 16	Information	101309	Orleans.Messaging.GatewayManager]	Refreshed the live Gateway list. Found 1 gateways from Gateway listProvider: [gwy.tcp://172.22.0.4:30000/272978118]. Picked only known live out of them. Now has 1 live Gateways: [gwy.tcp://172.22.0.4:30000/272978118]. Previous refresh time was = 08/26/2018 11:16:39	
+[2018-08-26 11:17:39.434 GMT 13	Debug	101404	Orleans.Runtime.SafeTimer]	Creating timer Orleans.Runtime.sync.SafeTimerBase with dueTime=00:30:00 period=-00:00:00.0010000	
+[2018-08-26 11:17:39.448 GMT 14	Debug	101408	Orleans.Runtime.SafeTimer]	Disposing timer Orleans.Runtime.sync.SafeTimerBase	
+[2018-08-26 11:18:34.776 GMT 17	Debug	0	Orleans.Messaging.GatewayManager]	Found 1 knownGateways from Gateway listProvider [gwy.tcp://172.22.0.4:30000/272978118]	
+[2018-08-26 11:18:34.776 GMT 17	Information	101309	Orleans.Messaging.GatewayManager]	Refreshed the live Gateway list. Found 1 gateways from Gateway listProvider: [gwy.tcp://172.22.0.4:30000/272978118]. Picked only known live out of them. Now has 1 live Gateways: [gwy.tcp://172.22.0.4:30000/272978118]. Previous refresh time was = 08/26/2018 11:17:34	
+[2018-08-26 11:18:39.444 GMT 17	Debug	101404	Orleans.Runtime.SafeTimer]	Creating timer Orleans.Runtime.sync.SafeTimerBase with dueTime=00:30:00 period=-00:00:00.0010000	
+[2018-08-26 11:18:39.453 GMT 14	Debug	101408	Orleans.Runtime.SafeTimer]	Disposing timer Orleans.Runtime.sync.SafeTimerBase	
+[2018-08-26 11:19:03.040 GMT 4	Warning	100158	Messaging.GatewayClientReceiver/gwy.tcp://172.22.0.4:30000/272978118]	Exception receiving from gateway gwy.tcp://172.22.0.4:30000/272978118: Socket closed	
+Exc level 0: System.IO.EndOfStreamException: Socket closed
+   at Orleans.Messaging.GatewayClientReceiver.FillBuffer(List`1 bufferSegments)
+[2018-08-26 11:19:03.064 GMT 4	Warning	100913	Messaging.GatewayConnection/GatewayClientSender_gwy.tcp://172.22.0.4:30000/272978118]	Marking gateway at address gwy.tcp://172.22.0.4:30000/272978118 as Disconnected	
+[2018-08-26 11:19:03.099 GMT 20	Debug	0	Orleans.Messaging.GatewayManager]	Found 0 knownGateways from Gateway listProvider []	
+[2018-08-26 11:19:03.101 GMT 20	Warning	101321	Orleans.Messaging.GatewayManager]	All gateways have previously been marked as dead. Clearing the list of dead gateways to expedite reconnection.	
+[2018-08-26 11:19:03.101 GMT 20	Information	101309	Orleans.Messaging.GatewayManager]	Refreshed the live Gateway list. Found 0 gateways from Gateway listProvider: []. Picked only known live out of them. Now has 0 live Gateways: []. Previous refresh time was = 08/26/2018 11:18:34	
+[2018-08-26 11:19:08.100 GMT 4	Warning	100178	Messaging.GatewayConnection/GatewayClientSender_gwy.tcp://172.22.0.4:30000/272978118]	Unable to connect to gateway at address gwy.tcp://172.22.0.4:30000/272978118 on trial 0 (Exception: Connection to 172.22.0.4:30000 could not be established in 00:00:05)	
+[2018-08-26 11:19:08.119 GMT 4	Warning	100913	Messaging.GatewayConnection/GatewayClientSender_gwy.tcp://172.22.0.4:30000/272978118]	Marking gateway at address gwy.tcp://172.22.0.4:30000/272978118 as Disconnected	
+[2018-08-26 11:19:08.147 GMT 21	Debug	0	Orleans.Messaging.GatewayManager]	Found 0 knownGateways from Gateway listProvider []	
+[2018-08-26 11:19:08.149 GMT 21	Warning	101321	Orleans.Messaging.GatewayManager]	All gateways have previously been marked as dead. Clearing the list of dead gateways to expedite reconnection.	
+[2018-08-26 11:19:08.149 GMT 21	Information	101309	Orleans.Messaging.GatewayManager]	Refreshed the live Gateway list. Found 0 gateways from Gateway listProvider: []. Picked only known live out of them. Now has 0 live Gateways: []. Previous refresh time was = 08/26/2018 11:19:03	
+[2018-08-26 11:19:08.169 GMT 4	Warning	100912	Messaging.GatewayConnection/GatewayClientSender_gwy.tcp://172.22.0.4:30000/272978118]	Marking gateway at address gwy.tcp://172.22.0.4:30000/272978118 as Dead in my client local gateway list.	
+[2018-08-26 11:19:08.187 GMT 22	Debug	0	Orleans.Messaging.GatewayManager]	Found 0 knownGateways from Gateway listProvider []	
+[2018-08-26 11:19:08.193 GMT 22	Warning	101321	Orleans.Messaging.GatewayManager]	All gateways have previously been marked as dead. Clearing the list of dead gateways to expedite reconnection.	
+[2018-08-26 11:19:08.193 GMT 22	Information	101309	Orleans.Messaging.GatewayManager]	Refreshed the live Gateway list. Found 0 gateways from Gateway listProvider: []. Picked only known live out of them. Now has 0 live Gateways: []. Previous refresh time was = 08/26/2018 11:19:08	
+[2018-08-26 11:19:08.216 GMT 4	Debug	0	Messaging.GatewayClientReceiver/gwy.tcp://172.22.0.4:30000/272978118]	Stopped agent	
+[2018-08-26 11:19:08.218 GMT 4	Debug	0	Messaging.GatewayConnection/GatewayClientSender_gwy.tcp://172.22.0.4:30000/272978118]	Stopped agent	
+[2018-08-26 11:19:08.222 GMT 15	Information	100312	Messaging.GatewayConnection/GatewayClientSender_gwy.tcp://172.22.0.4:30000/272978118]	Stop request processed	
+[2018-08-26 11:19:08.222 GMT 15	Information	100328	Messaging.GatewayConnection/GatewayClientSender_gwy.tcp://172.22.0.4:30000/272978118]	Stopping AsyncAgent Messaging.GatewayConnection/GatewayClientSender_gwy.tcp://172.22.0.4:30000/272978118 that runs on managed thread 15	
+[2018-08-26 11:19:08.231 GMT 4	Information	100328	Messaging.GatewayClientReceiver/gwy.tcp://172.22.0.4:30000/272978118]	Stopping AsyncAgent Messaging.GatewayClientReceiver/gwy.tcp://172.22.0.4:30000/272978118 that runs on managed thread 4	
+[2018-08-26 11:19:34.796 GMT 23	Debug	0	Orleans.Messaging.GatewayManager]	Found 0 knownGateways from Gateway listProvider []	
+[2018-08-26 11:19:34.797 GMT 23	Warning	101321	Orleans.Messaging.GatewayManager]	All gateways have previously been marked as dead. Clearing the list of dead gateways to expedite reconnection.	
+[2018-08-26 11:19:34.797 GMT 23	Information	101309	Orleans.Messaging.GatewayManager]	Refreshed the live Gateway list. Found 0 gateways from Gateway listProvider: []. Picked only known live out of them. Now has 0 live Gateways: []. Previous refresh time was = 08/26/2018 11:19:08	
+[2018-08-26 11:19:39.446 GMT 23	Warning	104202	Orleans.OutsideRuntimeClient]	Refresh the GrainTypeResolver failed. WIll be retried after	
+Exc level 0: Orleans.Runtime.OrleansException: Not connected to a gateway
+   at Orleans.Messaging.ClientMessageCenter.GetLiveGatewaySiloAddress()
+   at Orleans.Messaging.ClientMessageCenter.GetGrainTypeResolver(IInternalGrainFactory grainFactory)
+   at Orleans.OutsideRuntimeClient.RefreshGrainTypeResolver(Object _)
+[2018-08-26 11:19:39.463 GMT 19	Debug	0	Orleans.Messaging.GatewayManager]	Found 0 knownGateways from Gateway listProvider []	
+[2018-08-26 11:19:39.464 GMT 19	Warning	101321	Orleans.Messaging.GatewayManager]	All gateways have previously been marked as dead. Clearing the list of dead gateways to expedite reconnection.	
+[2018-08-26 11:19:39.464 GMT 19	Information	101309	Orleans.Messaging.GatewayManager]	Refreshed the live Gateway list. Found 0 gateways from Gateway listProvider: []. Picked only known live out of them. Now has 0 live Gateways: []. Previous refresh time was = 08/26/2018 11:19:34	
+[2018-08-26 11:20:34.817 GMT 24	Debug	0	Orleans.Messaging.GatewayManager]	Found 0 knownGateways from Gateway listProvider []	
+[2018-08-26 11:20:34.818 GMT 24	Warning	101321	Orleans.Messaging.GatewayManager]	All gateways have previously been marked as dead. Clearing the list of dead gateways to expedite reconnection.	
+[2018-08-26 11:20:34.818 GMT 24	Information	101309	Orleans.Messaging.GatewayManager]	Refreshed the live Gateway list. Found 0 gateways from Gateway listProvider: []. Picked only known live out of them. Now has 0 live Gateways: []. Previous refresh time was = 08/26/2018 11:19:39	
+[2018-08-26 11:20:39.479 GMT 25	Warning	104202	Orleans.OutsideRuntimeClient]	Refresh the GrainTypeResolver failed. WIll be retried after	
+Exc level 0: Orleans.Runtime.OrleansException: Not connected to a gateway
+   at Orleans.Messaging.ClientMessageCenter.GetLiveGatewaySiloAddress()
+   at Orleans.Messaging.ClientMessageCenter.GetGrainTypeResolver(IInternalGrainFactory grainFactory)
+   at Orleans.OutsideRuntimeClient.RefreshGrainTypeResolver(Object _)
+[2018-08-26 11:20:39.513 GMT 24	Debug	0	Orleans.Messaging.GatewayManager]	Found 0 knownGateways from Gateway listProvider []	
+[2018-08-26 11:20:39.513 GMT 24	Warning	101321	Orleans.Messaging.GatewayManager]	All gateways have previously been marked as dead. Clearing the list of dead gateways to expedite reconnection.	
+[2018-08-26 11:20:39.513 GMT 24	Information	101309	Orleans.Messaging.GatewayManager]	Refreshed the live Gateway list. Found 0 gateways from Gateway listProvider: []. Picked only known live out of them. Now has 0 live Gateways: []. Previous refresh time was = 08/26/2018 11:20:34	
+[2018-08-26 11:21:35.825 GMT 26	Debug	0	Orleans.Messaging.GatewayManager]	Found 0 knownGateways from Gateway listProvider []	
+[2018-08-26 11:21:35.826 GMT 26	Warning	101321	Orleans.Messaging.GatewayManager]	All gateways have previously been marked as dead. Clearing the list of dead gateways to expedite reconnection.	
+[2018-08-26 11:21:35.826 GMT 26	Information	101309	Orleans.Messaging.GatewayManager]	Refreshed the live Gateway list. Found 0 gateways from Gateway listProvider: []. Picked only known live out of them. Now has 0 live Gateways: []. Previous refresh time was = 08/26/2018 11:20:39	
+[2018-08-26 11:21:39.434 GMT 27	Information	100704	Orleans.RuntimeClientLogStatistics]	Statistics: ^^^
+Client.ConnectedGatewayCount=0
+Messaging.Expired.AtDispatch.Current=0
+Messaging.Expired.AtInvoke.Current=0
+Messaging.Expired.AtReceive.Current=0
+Messaging.Expired.AtRespond.Current=0
+Messaging.Expired.AtSend.Current=0
+Messaging.Received.BatchSize.PerSocketDirection.ClientToGateway=0.000
+Messaging.Received.BatchSizeBytesHistogram.Bytes.PerSocketDirection.ClientToGateway=
+Messaging.Received.Bytes.Header.Current=600
+Messaging.Received.Bytes.Total.Current=4441
+Messaging.Received.Direction.OneWay.Current=0
+Messaging.Received.Direction.Request.Current=0
+Messaging.Received.Direction.Response.Current=4
+Messaging.Received.Messages.From.S172.22.0.4:11111:272978118.Current=4
+Messaging.Received.Messages.Total.Current=4
+Messaging.Received.MessageSizeHistogram.Bytes=[128:255]=1, [1024:2047]=3, 
+Messaging.Rerouted.OneWay.Current=0
+Messaging.Rerouted.Request.Current=0
+Messaging.Rerouted.Response.Current=0
+Messaging.Sent.BatchSize.PerSocketDirection.ClientToGateway=0.000
+Messaging.Sent.BatchSizeBytesHistogram.Bytes.PerSocketDirection.ClientToGateway=
+Messaging.Sent.Bytes.Header.Current=600
+Messaging.Sent.Bytes.Total.Current=721
+Messaging.Sent.Direction.OneWay.Current=0
+Messaging.Sent.Direction.Request.Current=4
+Messaging.Sent.Direction.Response.Current=0
+Messaging.Sent.Messages.To.S172.22.0.4:30000:272978118.Current=4
+Messaging.Sent.Messages.Total.Current=4
+Messaging.Sent.MessageSizeHistogram.Bytes=[128:255]=4, 
+Networking.Sockets.ClientToGateway.Duplex.Closed.Current=3
+Networking.Sockets.ClientToGateway.Duplex.Opened.Current=1
+Runtime.Threads.AsynchAgent.Messaging.GatewayClientReceiver.Current=0
+Runtime.Threads.AsynchAgent.Messaging.GatewayConnection.Current=0
+Runtime.Threads.AsynchAgent.TotalThreadsCreated.Current=2
+Serialization.BufferPool.AllocatedBuffers.Current=250
+Serialization.BufferPool.BuffersInPool=217
+Serialization.BufferPool.CheckedInBuffers.Current=263
+Serialization.BufferPool.CheckedOutBuffers.Current=296
+Serialization.BufferPool.DroppedBuffers.Current=0
+Serialization.BufferPool.DroppedTooLargeBuffers.Current=0
+Serialization.BufferPool.InUse.AllocatedAndNotInPool_Buffers=33
+Serialization.BufferPool.InUse.CheckedOutAndNotCheckedIn_Buffers=33
+	
+[2018-08-26 11:21:39.523 GMT 27	Warning	104202	Orleans.OutsideRuntimeClient]	Refresh the GrainTypeResolver failed. WIll be retried after	
+Exc level 0: Orleans.Runtime.OrleansException: Not connected to a gateway
+   at Orleans.Messaging.ClientMessageCenter.GetLiveGatewaySiloAddress()
+   at Orleans.Messaging.ClientMessageCenter.GetGrainTypeResolver(IInternalGrainFactory grainFactory)
+   at Orleans.OutsideRuntimeClient.RefreshGrainTypeResolver(Object _)
+[2018-08-26 11:21:39.524 GMT 26	Debug	0	Orleans.Messaging.GatewayManager]	Found 0 knownGateways from Gateway listProvider []	
+[2018-08-26 11:21:39.524 GMT 26	Warning	101321	Orleans.Messaging.GatewayManager]	All gateways have previously been marked as dead. Clearing the list of dead gateways to expedite reconnection.	
+[2018-08-26 11:21:39.524 GMT 26	Information	101309	Orleans.Messaging.GatewayManager]	Refreshed the live Gateway list. Found 0 gateways from Gateway listProvider: []. Picked only known live out of them. Now has 0 live Gateways: []. Previous refresh time was = 08/26/2018 11:21:35	
+[2018-08-26 11:22:35.847 GMT 28	Debug	0	Orleans.Messaging.GatewayManager]	Found 0 knownGateways from Gateway listProvider []	
+[2018-08-26 11:22:35.860 GMT 28	Warning	101321	Orleans.Messaging.GatewayManager]	All gateways have previously been marked as dead. Clearing the list of dead gateways to expedite reconnection.	
+[2018-08-26 11:22:35.861 GMT 28	Information	101309	Orleans.Messaging.GatewayManager]	Refreshed the live Gateway list. Found 0 gateways from Gateway listProvider: []. Picked only known live out of them. Now has 0 live Gateways: []. Previous refresh time was = 08/26/2018 11:21:39	
+[2018-08-26 11:22:39.536 GMT 28	Warning	104202	Orleans.OutsideRuntimeClient]	Refresh the GrainTypeResolver failed. WIll be retried after	
+Exc level 0: Orleans.Runtime.OrleansException: Not connected to a gateway
+   at Orleans.Messaging.ClientMessageCenter.GetLiveGatewaySiloAddress()
+   at Orleans.Messaging.ClientMessageCenter.GetGrainTypeResolver(IInternalGrainFactory grainFactory)
+   at Orleans.OutsideRuntimeClient.RefreshGrainTypeResolver(Object _)
+[2018-08-26 11:22:39.553 GMT 27	Debug	0	Orleans.Messaging.GatewayManager]	Found 0 knownGateways from Gateway listProvider []	
+[2018-08-26 11:22:39.554 GMT 27	Warning	101321	Orleans.Messaging.GatewayManager]	All gateways have previously been marked as dead. Clearing the list of dead gateways to expedite reconnection.	
+[2018-08-26 11:22:39.554 GMT 27	Information	101309	Orleans.Messaging.GatewayManager]	Refreshed the live Gateway list. Found 0 gateways from Gateway listProvider: []. Picked only known live out of them. Now has 0 live Gateways: []. Previous refresh time was = 08/26/2018 11:22:35	
+[2018-08-26 11:23:35.887 GMT 29	Debug	0	Orleans.Messaging.GatewayManager]	Found 0 knownGateways from Gateway listProvider []	
+[2018-08-26 11:23:35.888 GMT 29	Warning	101321	Orleans.Messaging.GatewayManager]	All gateways have previously been marked as dead. Clearing the list of dead gateways to expedite reconnection.	
+[2018-08-26 11:23:35.888 GMT 29	Information	101309	Orleans.Messaging.GatewayManager]	Refreshed the live Gateway list. Found 0 gateways from Gateway listProvider: []. Picked only known live out of them. Now has 0 live Gateways: []. Previous refresh time was = 08/26/2018 11:22:39	
+[2018-08-26 11:23:39.556 GMT 29	Warning	104202	Orleans.OutsideRuntimeClient]	Refresh the GrainTypeResolver failed. WIll be retried after	
+Exc level 0: Orleans.Runtime.OrleansException: Not connected to a gateway
+   at Orleans.Messaging.ClientMessageCenter.GetLiveGatewaySiloAddress()
+   at Orleans.Messaging.ClientMessageCenter.GetGrainTypeResolver(IInternalGrainFactory grainFactory)
+   at Orleans.OutsideRuntimeClient.RefreshGrainTypeResolver(Object _)
+[2018-08-26 11:23:39.568 GMT 27	Debug	0	Orleans.Messaging.GatewayManager]	Found 0 knownGateways from Gateway listProvider []	
+[2018-08-26 11:23:39.569 GMT 27	Warning	101321	Orleans.Messaging.GatewayManager]	All gateways have previously been marked as dead. Clearing the list of dead gateways to expedite reconnection.	
+[2018-08-26 11:23:39.569 GMT 27	Information	101309	Orleans.Messaging.GatewayManager]	Refreshed the live Gateway list. Found 0 gateways from Gateway listProvider: []. Picked only known live out of them. Now has 0 live Gateways: []. Previous refresh time was = 08/26/2018 11:23:35	
+[2018-08-26 11:24:35.908 GMT 30	Debug	0	Orleans.Messaging.GatewayManager]	Found 0 knownGateways from Gateway listProvider []	
+[2018-08-26 11:24:35.909 GMT 30	Warning	101321	Orleans.Messaging.GatewayManager]	All gateways have previously been marked as dead. Clearing the list of dead gateways to expedite reconnection.	
+[2018-08-26 11:24:35.909 GMT 30	Information	101309	Orleans.Messaging.GatewayManager]	Refreshed the live Gateway list. Found 0 gateways from Gateway listProvider: []. Picked only known live out of them. Now has 0 live Gateways: []. Previous refresh time was = 08/26/2018 11:23:39	
+[2018-08-26 11:24:39.574 GMT 27	Warning	104202	Orleans.OutsideRuntimeClient]	Refresh the GrainTypeResolver failed. WIll be retried after	
+Exc level 0: Orleans.Runtime.OrleansException: Not connected to a gateway
+   at Orleans.Messaging.ClientMessageCenter.GetLiveGatewaySiloAddress()
+   at Orleans.Messaging.ClientMessageCenter.GetGrainTypeResolver(IInternalGrainFactory grainFactory)
+   at Orleans.OutsideRuntimeClient.RefreshGrainTypeResolver(Object _)
+[2018-08-26 11:24:40.576 GMT 27	Debug	0	Orleans.Messaging.GatewayManager]	Found 0 knownGateways from Gateway listProvider []	
+[2018-08-26 11:24:40.577 GMT 27	Warning	101321	Orleans.Messaging.GatewayManager]	All gateways have previously been marked as dead. Clearing the list of dead gateways to expedite reconnection.	
+[2018-08-26 11:24:40.577 GMT 27	Information	101309	Orleans.Messaging.GatewayManager]	Refreshed the live Gateway list. Found 0 gateways from Gateway listProvider: []. Picked only known live out of them. Now has 0 live Gateways: []. Previous refresh time was = 08/26/2018 11:24:35	
+[2018-08-26 11:25:36.528 GMT 27	Debug	0	Orleans.Messaging.GatewayManager]	Found 0 knownGateways from Gateway listProvider []	
+[2018-08-26 11:25:36.529 GMT 27	Warning	101321	Orleans.Messaging.GatewayManager]	All gateways have previously been marked as dead. Clearing the list of dead gateways to expedite reconnection.	
+[2018-08-26 11:25:36.529 GMT 27	Information	101309	Orleans.Messaging.GatewayManager]	Refreshed the live Gateway list. Found 0 gateways from Gateway listProvider: []. Picked only known live out of them. Now has 0 live Gateways: []. Previous refresh time was = 08/26/2018 11:24:40	
+[2018-08-26 11:25:39.584 GMT 27	Warning	104202	Orleans.OutsideRuntimeClient]	Refresh the GrainTypeResolver failed. WIll be retried after	
+Exc level 0: Orleans.Runtime.OrleansException: Not connected to a gateway
+   at Orleans.Messaging.ClientMessageCenter.GetLiveGatewaySiloAddress()
+   at Orleans.Messaging.ClientMessageCenter.GetGrainTypeResolver(IInternalGrainFactory grainFactory)
+   at Orleans.OutsideRuntimeClient.RefreshGrainTypeResolver(Object _)
+[2018-08-26 11:25:39.600 GMT 31	Debug	0	Orleans.Messaging.GatewayManager]	Found 0 knownGateways from Gateway listProvider []	
+[2018-08-26 11:25:39.601 GMT 31	Warning	101321	Orleans.Messaging.GatewayManager]	All gateways have previously been marked as dead. Clearing the list of dead gateways to expedite reconnection.	
+[2018-08-26 11:25:39.601 GMT 31	Information	101309	Orleans.Messaging.GatewayManager]	Refreshed the live Gateway list. Found 0 gateways from Gateway listProvider: []. Picked only known live out of them. Now has 0 live Gateways: []. Previous refresh time was = 08/26/2018 11:25:36	
+[2018-08-26 11:26:37.526 GMT 31	Debug	0	Orleans.Messaging.GatewayManager]	Found 0 knownGateways from Gateway listProvider []	
+[2018-08-26 11:26:37.527 GMT 31	Warning	101321	Orleans.Messaging.GatewayManager]	All gateways have previously been marked as dead. Clearing the list of dead gateways to expedite reconnection.	
+[2018-08-26 11:26:37.527 GMT 31	Information	101309	Orleans.Messaging.GatewayManager]	Refreshed the live Gateway list. Found 0 gateways from Gateway listProvider: []. Picked only known live out of them. Now has 0 live Gateways: []. Previous refresh time was = 08/26/2018 11:25:39	
+[2018-08-26 11:26:39.446 GMT 31	Information	100704	Orleans.RuntimeClientLogStatistics]	Statistics: ^^^
+Client.ConnectedGatewayCount=0
+Messaging.Expired.AtDispatch.Current=0
+Messaging.Expired.AtInvoke.Current=0
+Messaging.Expired.AtReceive.Current=0
+Messaging.Expired.AtRespond.Current=0
+Messaging.Expired.AtSend.Current=0
+Messaging.Received.BatchSize.PerSocketDirection.ClientToGateway=0.000
+Messaging.Received.BatchSizeBytesHistogram.Bytes.PerSocketDirection.ClientToGateway=
+Messaging.Received.Bytes.Header.Current=600
+Messaging.Received.Bytes.Total.Current=4441
+Messaging.Received.Direction.OneWay.Current=0
+Messaging.Received.Direction.Request.Current=0
+Messaging.Received.Direction.Response.Current=4
+Messaging.Received.Messages.From.S172.22.0.4:11111:272978118.Current=4
+Messaging.Received.Messages.Total.Current=4
+Messaging.Received.MessageSizeHistogram.Bytes=[128:255]=1, [1024:2047]=3, 
+Messaging.Rerouted.OneWay.Current=0
+Messaging.Rerouted.Request.Current=0
+Messaging.Rerouted.Response.Current=0
+Messaging.Sent.BatchSize.PerSocketDirection.ClientToGateway=0.000
+Messaging.Sent.BatchSizeBytesHistogram.Bytes.PerSocketDirection.ClientToGateway=
+Messaging.Sent.Bytes.Header.Current=600
+Messaging.Sent.Bytes.Total.Current=721
+Messaging.Sent.Direction.OneWay.Current=0
+Messaging.Sent.Direction.Request.Current=4
+Messaging.Sent.Direction.Response.Current=0
+Messaging.Sent.Messages.To.S172.22.0.4:30000:272978118.Current=4
+Messaging.Sent.Messages.Total.Current=4
+Messaging.Sent.MessageSizeHistogram.Bytes=[128:255]=4, 
+Networking.Sockets.ClientToGateway.Duplex.Closed.Current=3
+Networking.Sockets.ClientToGateway.Duplex.Opened.Current=1
+Runtime.Threads.AsynchAgent.Messaging.GatewayClientReceiver.Current=0
+Runtime.Threads.AsynchAgent.Messaging.GatewayConnection.Current=0
+Runtime.Threads.AsynchAgent.TotalThreadsCreated.Current=2
+Serialization.BufferPool.AllocatedBuffers.Current=250
+Serialization.BufferPool.BuffersInPool=217
+Serialization.BufferPool.CheckedInBuffers.Current=263
+Serialization.BufferPool.CheckedOutBuffers.Current=296
+Serialization.BufferPool.DroppedBuffers.Current=0
+Serialization.BufferPool.DroppedTooLargeBuffers.Current=0
+Serialization.BufferPool.InUse.AllocatedAndNotInPool_Buffers=33
+Serialization.BufferPool.InUse.CheckedOutAndNotCheckedIn_Buffers=33
+	
+[2018-08-26 11:26:39.589 GMT 31	Warning	104202	Orleans.OutsideRuntimeClient]	Refresh the GrainTypeResolver failed. WIll be retried after	
+Exc level 0: Orleans.Runtime.OrleansException: Not connected to a gateway
+   at Orleans.Messaging.ClientMessageCenter.GetLiveGatewaySiloAddress()
+   at Orleans.Messaging.ClientMessageCenter.GetGrainTypeResolver(IInternalGrainFactory grainFactory)
+   at Orleans.OutsideRuntimeClient.RefreshGrainTypeResolver(Object _)
+[2018-08-26 11:26:39.599 GMT 32	Debug	0	Orleans.Messaging.GatewayManager]	Found 0 knownGateways from Gateway listProvider []	
+[2018-08-26 11:26:39.600 GMT 32	Warning	101321	Orleans.Messaging.GatewayManager]	All gateways have previously been marked as dead. Clearing the list of dead gateways to expedite reconnection.	
+[2018-08-26 11:26:39.600 GMT 32	Information	101309	Orleans.Messaging.GatewayManager]	Refreshed the live Gateway list. Found 0 gateways from Gateway listProvider: []. Picked only known live out of them. Now has 0 live Gateways: []. Previous refresh time was = 08/26/2018 11:26:37	
+[2018-08-26 11:27:37.533 GMT 33	Debug	0	Orleans.Messaging.GatewayManager]	Found 0 knownGateways from Gateway listProvider []	
+[2018-08-26 11:27:37.534 GMT 33	Warning	101321	Orleans.Messaging.GatewayManager]	All gateways have previously been marked as dead. Clearing the list of dead gateways to expedite reconnection.	
+[2018-08-26 11:27:37.534 GMT 33	Information	101309	Orleans.Messaging.GatewayManager]	Refreshed the live Gateway list. Found 0 gateways from Gateway listProvider: []. Picked only known live out of them. Now has 0 live Gateways: []. Previous refresh time was = 08/26/2018 11:26:39	
+[2018-08-26 11:27:39.598 GMT 33	Warning	104202	Orleans.OutsideRuntimeClient]	Refresh the GrainTypeResolver failed. WIll be retried after	
+Exc level 0: Orleans.Runtime.OrleansException: Not connected to a gateway
+   at Orleans.Messaging.ClientMessageCenter.GetLiveGatewaySiloAddress()
+   at Orleans.Messaging.ClientMessageCenter.GetGrainTypeResolver(IInternalGrainFactory grainFactory)
+   at Orleans.OutsideRuntimeClient.RefreshGrainTypeResolver(Object _)
+[2018-08-26 11:27:39.616 GMT 34	Debug	0	Orleans.Messaging.GatewayManager]	Found 0 knownGateways from Gateway listProvider []	
+[2018-08-26 11:27:39.616 GMT 34	Warning	101321	Orleans.Messaging.GatewayManager]	All gateways have previously been marked as dead. Clearing the list of dead gateways to expedite reconnection.	
+[2018-08-26 11:27:39.616 GMT 34	Information	101309	Orleans.Messaging.GatewayManager]	Refreshed the live Gateway list. Found 0 gateways from Gateway listProvider: []. Picked only known live out of them. Now has 0 live Gateways: []. Previous refresh time was = 08/26/2018 11:27:37	
+[2018-08-26 11:28:38.530 GMT 33	Debug	0	Orleans.Messaging.GatewayManager]	Found 0 knownGateways from Gateway listProvider []	
+[2018-08-26 11:28:38.531 GMT 33	Warning	101321	Orleans.Messaging.GatewayManager]	All gateways have previously been marked as dead. Clearing the list of dead gateways to expedite reconnection.	
+[2018-08-26 11:28:38.531 GMT 33	Information	101309	Orleans.Messaging.GatewayManager]	Refreshed the live Gateway list. Found 0 gateways from Gateway listProvider: []. Picked only known live out of them. Now has 0 live Gateways: []. Previous refresh time was = 08/26/2018 11:27:39	
+[2018-08-26 11:28:39.627 GMT 35	Warning	104202	Orleans.OutsideRuntimeClient]	Refresh the GrainTypeResolver failed. WIll be retried after	
+Exc level 0: Orleans.Runtime.OrleansException: Not connected to a gateway
+   at Orleans.Messaging.ClientMessageCenter.GetLiveGatewaySiloAddress()
+   at Orleans.Messaging.ClientMessageCenter.GetGrainTypeResolver(IInternalGrainFactory grainFactory)
+   at Orleans.OutsideRuntimeClient.RefreshGrainTypeResolver(Object _)
+[2018-08-26 11:28:39.640 GMT 33	Debug	0	Orleans.Messaging.GatewayManager]	Found 0 knownGateways from Gateway listProvider []	
+[2018-08-26 11:28:39.641 GMT 33	Warning	101321	Orleans.Messaging.GatewayManager]	All gateways have previously been marked as dead. Clearing the list of dead gateways to expedite reconnection.	
+[2018-08-26 11:28:39.641 GMT 33	Information	101309	Orleans.Messaging.GatewayManager]	Refreshed the live Gateway list. Found 0 gateways from Gateway listProvider: []. Picked only known live out of them. Now has 0 live Gateways: []. Previous refresh time was = 08/26/2018 11:28:38	
+[2018-08-26 11:29:38.557 GMT 36	Debug	0	Orleans.Messaging.GatewayManager]	Found 0 knownGateways from Gateway listProvider []	
+[2018-08-26 11:29:38.558 GMT 36	Warning	101321	Orleans.Messaging.GatewayManager]	All gateways have previously been marked as dead. Clearing the list of dead gateways to expedite reconnection.	
+[2018-08-26 11:29:38.558 GMT 36	Information	101309	Orleans.Messaging.GatewayManager]	Refreshed the live Gateway list. Found 0 gateways from Gateway listProvider: []. Picked only known live out of them. Now has 0 live Gateways: []. Previous refresh time was = 08/26/2018 11:28:39	
+[2018-08-26 11:29:39.674 GMT 37	Warning	104202	Orleans.OutsideRuntimeClient]	Refresh the GrainTypeResolver failed. WIll be retried after	
+Exc level 0: Orleans.Runtime.OrleansException: Not connected to a gateway
+   at Orleans.Messaging.ClientMessageCenter.GetLiveGatewaySiloAddress()
+   at Orleans.Messaging.ClientMessageCenter.GetGrainTypeResolver(IInternalGrainFactory grainFactory)
+   at Orleans.OutsideRuntimeClient.RefreshGrainTypeResolver(Object _)
+[2018-08-26 11:29:39.674 GMT 36	Debug	0	Orleans.Messaging.GatewayManager]	Found 0 knownGateways from Gateway listProvider []	
+[2018-08-26 11:29:39.676 GMT 36	Warning	101321	Orleans.Messaging.GatewayManager]	All gateways have previously been marked as dead. Clearing the list of dead gateways to expedite reconnection.	
+[2018-08-26 11:29:39.676 GMT 36	Information	101309	Orleans.Messaging.GatewayManager]	Refreshed the live Gateway list. Found 0 gateways from Gateway listProvider: []. Picked only known live out of them. Now has 0 live Gateways: []. Previous refresh time was = 08/26/2018 11:29:38	
+[2018-08-26 11:30:39.564 GMT 38	Debug	0	Orleans.Messaging.GatewayManager]	Found 0 knownGateways from Gateway listProvider []	
+[2018-08-26 11:30:39.565 GMT 38	Warning	101321	Orleans.Messaging.GatewayManager]	All gateways have previously been marked as dead. Clearing the list of dead gateways to expedite reconnection.	
+[2018-08-26 11:30:39.565 GMT 38	Information	101309	Orleans.Messaging.GatewayManager]	Refreshed the live Gateway list. Found 0 gateways from Gateway listProvider: []. Picked only known live out of them. Now has 0 live Gateways: []. Previous refresh time was = 08/26/2018 11:29:39	
+[2018-08-26 11:30:39.693 GMT 40	Warning	104202	Orleans.OutsideRuntimeClient]	Refresh the GrainTypeResolver failed. WIll be retried after	
+Exc level 0: Orleans.Runtime.OrleansException: Not connected to a gateway
+   at Orleans.Messaging.ClientMessageCenter.GetLiveGatewaySiloAddress()
+   at Orleans.Messaging.ClientMessageCenter.GetGrainTypeResolver(IInternalGrainFactory grainFactory)
+   at Orleans.OutsideRuntimeClient.RefreshGrainTypeResolver(Object _)
+[2018-08-26 11:33:04.818 GMT 10	Information	100313	Orleans.OutsideRuntimeClient]	---------- Initializing OutsideRuntimeClient on aa0b96dfff62 at 172.22.0.5 Client Id = *cli/f30bbcac ----------	
+[2018-08-26 11:33:04.863 GMT 10	Information	100314	Orleans.OutsideRuntimeClient]	---------- Starting OutsideRuntimeClient with runtime Version='2.0.3. Commit Hash: c5432c1809a37f12142fb1c489fb0a4f77ed3bda (Release).' in AppDomain=<AppDomain.Id=1, AppDomain.FriendlyName=PoC.Blog.WebClient>	
+[2018-08-26 11:33:05.973 GMT 4	Error	101313	Orleans.OutsideRuntimeClient]	!!!!!!!!!! Could not find any gateway in global::Orleans.Runtime.Membership.AdoNetGatewayListProvider. Orleans client cannot initialize.	
+[2018-08-26 11:33:10.052 GMT 5	Information	101309	Orleans.Messaging.GatewayManager]	Found 1 knownGateways from Gateway listProvider [gwy.tcp://172.22.0.4:30000/272979179]	
+[2018-08-26 11:33:10.055 GMT 5	Debug	101404	Orleans.Runtime.SafeTimer]	Creating timer Orleans.Runtime.sync.SafeTimerBase with dueTime=00:01:00 period=00:01:00	
+[2018-08-26 11:33:10.055 GMT 5	Debug	0	Orleans.Messaging.ClientMessageCenter]	Proxy grain client constructed	
+[2018-08-26 11:33:10.056 GMT 5	Debug	0	Orleans.Messaging.ClientMessageCenter]	Proxy grain client started	
+[2018-08-26 11:33:10.109 GMT 5	Debug	101404	Orleans.Runtime.SafeTimer]	Creating timer Orleans.Runtime.sync.SafeTimerBase with dueTime=00:30:00 period=-00:00:00.0010000	
+[2018-08-26 11:33:10.123 GMT 5	Debug	0	Orleans.Messaging.ClientMessageCenter]	Creating gateway to gwy.tcp://172.22.0.4:30000/272979179 for pre-addressed message	
+[2018-08-26 11:33:10.125 GMT 5	Debug	100914	Messaging.GatewayConnection/GatewayClientSender_gwy.tcp://172.22.0.4:30000/272979179]	Starting gateway connection for gateway gwy.tcp://172.22.0.4:30000/272979179	
+[2018-08-26 11:33:11.028 GMT 5	Information	100908	Messaging.GatewayConnection/GatewayClientSender_gwy.tcp://172.22.0.4:30000/272979179]	Connected to gateway at address gwy.tcp://172.22.0.4:30000/272979179 on trial 0.	
+[2018-08-26 11:33:11.038 GMT 5	Debug	0	Messaging.GatewayClientReceiver/gwy.tcp://172.22.0.4:30000/272979179]	Started asynch agent Messaging.GatewayClientReceiver/gwy.tcp://172.22.0.4:30000/272979179	
+[2018-08-26 11:33:11.039 GMT 13	Information	0	Messaging.GatewayClientReceiver/gwy.tcp://172.22.0.4:30000/272979179]	Starting AsyncAgent Messaging.GatewayClientReceiver/gwy.tcp://172.22.0.4:30000/272979179 on managed thread 13	
+[2018-08-26 11:33:11.049 GMT 5	Debug	0	Messaging.GatewayConnection/GatewayClientSender_gwy.tcp://172.22.0.4:30000/272979179]	Started asynch agent Messaging.GatewayConnection/GatewayClientSender_gwy.tcp://172.22.0.4:30000/272979179	
+[2018-08-26 11:33:11.050 GMT 14	Information	0	Messaging.GatewayConnection/GatewayClientSender_gwy.tcp://172.22.0.4:30000/272979179]	Starting AsyncAgent Messaging.GatewayConnection/GatewayClientSender_gwy.tcp://172.22.0.4:30000/272979179 on managed thread 14	
+[2018-08-26 11:33:11.302 GMT 4	Debug	101408	Orleans.Runtime.SafeTimer]	Disposing timer Orleans.Runtime.sync.SafeTimerBase	
+[2018-08-26 11:33:11.332 GMT 5	Debug	101404	Orleans.OutsideRuntimeClient]	Creating timer Orleans.Runtime.asynTask.SafeTimerBase with dueTime=00:01:00 period=00:01:00	
+[2018-08-26 11:33:11.333 GMT 5	Debug	101404	Orleans.Runtime.AsyncTaskSafeTimer]	Creating timer Orleans.Runtime.asynTask.SafeTimerBase with dueTime=00:05:00 period=00:05:00	
+[2018-08-26 11:33:11.343 GMT 5	Debug	101404	Orleans.Runtime.SafeTimer]	Creating timer Orleans.Runtime.sync.SafeTimerBase with dueTime=00:30:00 period=-00:00:00.0010000	
+[2018-08-26 11:33:11.352 GMT 4	Debug	101408	Orleans.Runtime.SafeTimer]	Disposing timer Orleans.Runtime.sync.SafeTimerBase	
+[2018-08-26 11:33:11.366 GMT 5	Information	100929	Orleans.OutsideRuntimeClient]	---------- Started OutsideRuntimeClient with Global Client ID: C172.22.0.5:0:-272979190*cli/f30bbcac@e2cb0a87, client GUID ID: *cli/f30bbcac	
+[2018-08-26 11:33:11.386 GMT 5	Information	0	Orleans.ClientOptionsLogger]	Configuration Orleans.Configuration.ClientMessagingOptions: 
+ClientSenderBuckets: 8192
+PreferredFamily: InterNetwork
+NetworkInterfaceName: 
+ResponseTimeout: 00:30:00
+ResponseTimeoutWithDebugger: 00:30:00
+MaxResendCount: 0
+ResendOnTimeout: False
+DropExpiredMessages: True
+BufferPoolBufferSize: 4096
+BufferPoolMaxSize: 10000
+BufferPoolPreallocationSize: 250
+PropagateActivityId: False
+	
+[2018-08-26 11:34:22.856 GMT 4	Information	100313	Orleans.OutsideRuntimeClient]	---------- Initializing OutsideRuntimeClient on aa0b96dfff62 at 172.22.0.5 Client Id = *cli/dd997198 ----------	
+[2018-08-26 11:34:22.888 GMT 4	Information	100314	Orleans.OutsideRuntimeClient]	---------- Starting OutsideRuntimeClient with runtime Version='2.0.3. Commit Hash: c5432c1809a37f12142fb1c489fb0a4f77ed3bda (Release).' in AppDomain=<AppDomain.Id=1, AppDomain.FriendlyName=PoC.Blog.WebClient>	
+[2018-08-26 11:34:24.701 GMT 9	Information	101309	Orleans.Messaging.GatewayManager]	Found 1 knownGateways from Gateway listProvider [gwy.tcp://172.22.0.4:30000/272979179]	
+[2018-08-26 11:34:24.704 GMT 9	Debug	101404	Orleans.Runtime.SafeTimer]	Creating timer Orleans.Runtime.sync.SafeTimerBase with dueTime=00:01:00 period=00:01:00	
+[2018-08-26 11:34:24.705 GMT 9	Debug	0	Orleans.Messaging.ClientMessageCenter]	Proxy grain client constructed	
+[2018-08-26 11:34:24.706 GMT 9	Debug	0	Orleans.Messaging.ClientMessageCenter]	Proxy grain client started	
+[2018-08-26 11:34:24.751 GMT 9	Debug	101404	Orleans.Runtime.SafeTimer]	Creating timer Orleans.Runtime.sync.SafeTimerBase with dueTime=00:30:00 period=-00:00:00.0010000	
+[2018-08-26 11:34:24.766 GMT 9	Debug	0	Orleans.Messaging.ClientMessageCenter]	Creating gateway to gwy.tcp://172.22.0.4:30000/272979179 for pre-addressed message	
+[2018-08-26 11:34:24.768 GMT 9	Debug	100914	Messaging.GatewayConnection/GatewayClientSender_gwy.tcp://172.22.0.4:30000/272979179]	Starting gateway connection for gateway gwy.tcp://172.22.0.4:30000/272979179	
+[2018-08-26 11:34:25.695 GMT 9	Warning	100178	Messaging.GatewayConnection/GatewayClientSender_gwy.tcp://172.22.0.4:30000/272979179]	Unable to connect to gateway at address gwy.tcp://172.22.0.4:30000/272979179 on trial 0 (Exception: Could not connect to 172.22.0.4:30000: ConnectionRefused)	
+[2018-08-26 11:34:25.697 GMT 9	Warning	100913	Messaging.GatewayConnection/GatewayClientSender_gwy.tcp://172.22.0.4:30000/272979179]	Marking gateway at address gwy.tcp://172.22.0.4:30000/272979179 as Disconnected	
+[2018-08-26 11:34:26.691 GMT 9	Warning	100178	Messaging.GatewayConnection/GatewayClientSender_gwy.tcp://172.22.0.4:30000/272979179]	Unable to connect to gateway at address gwy.tcp://172.22.0.4:30000/272979179 on trial 1 (Exception: Could not connect to 172.22.0.4:30000: ConnectionRefused)	
+[2018-08-26 11:34:26.691 GMT 9	Warning	100913	Messaging.GatewayConnection/GatewayClientSender_gwy.tcp://172.22.0.4:30000/272979179]	Marking gateway at address gwy.tcp://172.22.0.4:30000/272979179 as Disconnected	
+[2018-08-26 11:34:26.692 GMT 12	Debug	0	Orleans.Messaging.GatewayManager]	Found 1 knownGateways from Gateway listProvider [gwy.tcp://172.22.0.4:30000/272979257]	
+[2018-08-26 11:34:26.692 GMT 9	Warning	100912	Messaging.GatewayConnection/GatewayClientSender_gwy.tcp://172.22.0.4:30000/272979179]	Marking gateway at address gwy.tcp://172.22.0.4:30000/272979179 as Dead in my client local gateway list.	
+[2018-08-26 11:34:26.699 GMT 9	Debug	0	Messaging.GatewayClientReceiver/gwy.tcp://172.22.0.4:30000/272979179]	Stopped agent	
+[2018-08-26 11:34:26.699 GMT 12	Information	101309	Orleans.Messaging.GatewayManager]	Refreshed the live Gateway list. Found 1 gateways from Gateway listProvider: [gwy.tcp://172.22.0.4:30000/272979257]. Picked only known live out of them. Now has 1 live Gateways: [gwy.tcp://172.22.0.4:30000/272979257]. Previous refresh time was = 08/26/2018 11:34:24	
+[2018-08-26 11:34:26.699 GMT 9	Debug	0	Messaging.GatewayConnection/GatewayClientSender_gwy.tcp://172.22.0.4:30000/272979179]	Stopped agent	
+[2018-08-26 11:34:26.708 GMT 9	Warning	100157	Orleans.Runtime.CallbackData]	The target silo became unavailable for message: Request *cli/dd997198@5bdab2a9->S172.22.0.4:30000:272979179*stg/17/00000011@S00000011 #2: . Target History is: <S172.22.0.4:30000:272979179:*stg/17/00000011:@S00000011>. See https://aka.ms/orleans-troubleshooting for troubleshooting help. About to break its promise.	
+[2018-08-26 11:34:26.710 GMT 9	Debug	101408	Orleans.Runtime.SafeTimer]	Disposing timer Orleans.Runtime.sync.SafeTimerBase	
+[2018-08-26 11:34:26.714 GMT 9	Debug	100906	Orleans.Messaging.ClientMessageCenter]	Rejecting message: Request *cli/dd997198@5bdab2a9->S172.22.0.4:30000:272979179*stg/17/00000011@S00000011 #2: . Reason = Target silo S172.22.0.4:30000:272979179 is unavailable	
+[2018-08-26 11:34:26.723 GMT 9	Debug	0	Orleans.Runtime.MessageFactory]	Creating Unrecoverable rejection with info 'Target silo S172.22.0.4:30000:272979179 is unavailable' for Orleans.Runtime.MessageFactory at:
+   at Orleans.Runtime.MessageFactory.CreateRejectionResponse(Message request, RejectionTypes type, String info, Exception ex)
+   at Orleans.Messaging.ClientMessageCenter.RejectMessage(Message msg, String reasonFormat, Object[] reasonParams)
+   at Orleans.Messaging.ClientMessageCenter.RejectOrResend(Message msg)
+   at Orleans.Messaging.ClientMessageCenter.SendMessage(Message msg)
+   at Orleans.OutsideRuntimeClient.SendRequestMessage(GrainReference target, Message message, TaskCompletionSource`1 context, Action`2 callback, String debugContext, InvokeMethodOptions options, String genericArguments)
+   at Orleans.Runtime.GrainReferenceRuntime.SendRequest(GrainReference reference, InvokeMethodRequest request, String debugContext, InvokeMethodOptions options)
+   at Orleans.Runtime.GrainReferenceRuntime.InvokeMethodAsync[T](GrainReference reference, Int32 methodId, Object[] arguments, InvokeMethodOptions options, SiloAddress silo)
+   at Orleans.OutsideRuntimeClient.<StartInternal>b__58_2()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Orleans.OutsideRuntimeClient.<StartInternal>b__58_2()
+   at Orleans.OutsideRuntimeClient.<StartInternal>g__ExecuteWithRetries58_3(Func`1 task, Func`2 shouldRetry)
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Orleans.OutsideRuntimeClient.<StartInternal>g__ExecuteWithRetries58_3(Func`1 task, Func`2 shouldRetry)
+   at Orleans.OutsideRuntimeClient.StartInternal(Func`2 retryFilter)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+   at System.Threading.Tasks.AwaitTaskContinuation.RunOrScheduleAction(IAsyncStateMachineBox box, Boolean allowInlining)
+   at System.Threading.Tasks.Task.RunContinuations(Object continuationObject)
+   at System.Threading.Tasks.Task`1.TrySetResult(TResult result)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetExistingTaskResult(TResult result)
+   at Orleans.OutsideRuntimeClient.<StartInternal>g__ExecuteWithRetries58_3(Func`1 task, Func`2 shouldRetry)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+   at System.Threading.Tasks.AwaitTaskContinuation.RunOrScheduleAction(IAsyncStateMachineBox box, Boolean allowInlining)
+   at System.Threading.Tasks.Task.RunContinuations(Object continuationObject)
+   at System.Threading.Tasks.Task`1.TrySetResult(TResult result)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetExistingTaskResult(TResult result)
+   at Orleans.OutsideRuntimeClient.<>c__DisplayClass58_0.<<StartInternal>b__0>d.MoveNext()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+   at System.Threading.Tasks.AwaitTaskContinuation.RunOrScheduleAction(IAsyncStateMachineBox box, Boolean allowInlining)
+   at System.Threading.Tasks.Task.RunContinuations(Object continuationObject)
+   at System.Threading.Tasks.Task`1.TrySetResult(TResult result)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetExistingTaskResult(TResult result)
+   at Orleans.Runtime.Membership.AdoNetGatewayListProvider.GetGateways()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+   at System.Threading.Tasks.AwaitTaskContinuation.RunOrScheduleAction(IAsyncStateMachineBox box, Boolean allowInlining)
+   at System.Threading.Tasks.Task.RunContinuations(Object continuationObject)
+   at System.Threading.Tasks.Task`1.TrySetResult(TResult result)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetExistingTaskResult(TResult result)
+   at Orleans.Clustering.AdoNet.Storage.RelationalOrleansQueries.ReadAsync[TResult,TAggregate](String query, Func`2 selector, Func`2 parameterProvider, Func`2 aggregator)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+   at System.Threading.Tasks.AwaitTaskContinuation.RunOrScheduleAction(IAsyncStateMachineBox box, Boolean allowInlining)
+   at System.Threading.Tasks.Task.RunContinuations(Object continuationObject)
+   at System.Threading.Tasks.Task`1.TrySetResult(TResult result)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetExistingTaskResult(TResult result)
+   at Orleans.Clustering.AdoNet.Storage.RelationalStorage.ReadAsync[TResult](String query, Action`1 parameterProvider, Func`4 selector, CancellationToken cancellationToken, CommandBehavior commandBehavior)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+   at System.Threading.Tasks.AwaitTaskContinuation.RunOrScheduleAction(IAsyncStateMachineBox box, Boolean allowInlining)
+   at System.Threading.Tasks.Task.RunContinuations(Object continuationObject)
+   at System.Threading.Tasks.Task`1.TrySetResult(TResult result)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetExistingTaskResult(TResult result)
+   at Orleans.Clustering.AdoNet.Storage.RelationalStorage.ExecuteAsync[TResult](String query, Action`1 parameterProvider, Func`5 executor, Func`4 selector, CancellationToken cancellationToken, CommandBehavior commandBehavior)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+   at System.Threading.Tasks.AwaitTaskContinuation.RunOrScheduleAction(IAsyncStateMachineBox box, Boolean allowInlining)
+   at System.Threading.Tasks.Task.RunContinuations(Object continuationObject)
+   at System.Threading.Tasks.Task`1.TrySetResult(TResult result)
+   at System.Threading.Tasks.UnwrapPromise`1.TrySetFromTask(Task task, Boolean lookForOce)
+   at System.Threading.Tasks.UnwrapPromise`1.InvokeCore(Task completingTask)
+   at System.Threading.Tasks.UnwrapPromise`1.Invoke(Task completingTask)
+   at System.Threading.Tasks.Task.RunContinuations(Object continuationObject)
+   at System.Threading.Tasks.Task`1.TrySetResult(TResult result)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetExistingTaskResult(TResult result)
+   at Orleans.Clustering.AdoNet.Storage.RelationalStorage.ExecuteReaderAsync[TResult](DbCommand command, Func`4 selector, CancellationToken cancellationToken, CommandBehavior commandBehavior)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+   at System.Threading.Tasks.AwaitTaskContinuation.RunOrScheduleAction(IAsyncStateMachineBox box, Boolean allowInlining)
+   at System.Threading.Tasks.Task.RunContinuations(Object continuationObject)
+   at System.Threading.Tasks.Task`1.TrySetResult(TResult result)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetExistingTaskResult(TResult result)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReader(CommandBehavior behavior, Boolean async, CancellationToken cancellationToken)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+   at System.Threading.Tasks.AwaitTaskContinuation.RunOrScheduleAction(IAsyncStateMachineBox box, Boolean allowInlining)
+   at System.Threading.Tasks.Task.RunContinuations(Object continuationObject)
+   at System.Threading.Tasks.Task`1.TrySetResult(TResult result)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetExistingTaskResult(TResult result)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+   at System.Threading.Tasks.AwaitTaskContinuation.RunOrScheduleAction(IAsyncStateMachineBox box, Boolean allowInlining)
+   at System.Threading.Tasks.Task.RunContinuations(Object continuationObject)
+   at System.Threading.Tasks.Task`1.TrySetResult(TResult result)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetExistingTaskResult(TResult result)
+   at Npgsql.NpgsqlConnector.<>c__DisplayClass161_0.<<ReadMessage>g__ReadMessageLong|0>d.MoveNext()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+   at System.Threading.Tasks.AwaitTaskContinuation.RunOrScheduleAction(IAsyncStateMachineBox box, Boolean allowInlining)
+   at System.Threading.Tasks.Task.RunContinuations(Object continuationObject)
+   at System.Threading.Tasks.Task`1.TrySetResult(TResult result)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetExistingTaskResult(TResult result)
+   at Npgsql.NpgsqlReadBuffer.<>c__DisplayClass31_0.<<Ensure>g__EnsureLong|0>d.MoveNext()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+   at System.Net.Sockets.SocketAsyncEventArgs.OnCompleted(SocketAsyncEventArgs e)
+   at System.Net.Sockets.SocketAsyncEventArgs.ExecutionCallback(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Net.Sockets.SocketAsyncEventArgs.FinishOperationAsyncSuccess(Int32 bytesTransferred, SocketFlags flags)
+   at System.Net.Sockets.SocketAsyncEventArgs.CompletionCallback(Int32 bytesTransferred, SocketFlags flags, SocketError socketError)
+   at System.Net.Sockets.SocketAsyncEventArgs.TransferCompletionCallbackCore(Int32 bytesTransferred, Byte[] socketAddress, Int32 socketAddressSize, SocketFlags receivedFlags, SocketError socketError)
+   at System.Net.Sockets.SocketAsyncContext.BufferMemoryReceiveOperation.InvokeCallback(Boolean allowPooling)
+   at System.Net.Sockets.SocketAsyncContext.OperationQueue`1.ProcessAsyncOperation(TOperation op)
+   at System.Net.Sockets.SocketAsyncContext.OperationQueue`1.<>c.<.cctor>b__18_0(Object op)
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+	
+[2018-08-26 11:34:26.726 GMT 5	Warning	100011	Orleans.OutsideRuntimeClient]	No callback for response message: Unrecoverable Rejection (info: Target silo S172.22.0.4:30000:272979179 is unavailable) Response S172.22.0.4:30000:272979179*stg/17/00000011@S00000011->*cli/dd997198@5bdab2a9 #2: 	
+[2018-08-26 11:34:30.746 GMT 9	Debug	101404	Orleans.Runtime.SafeTimer]	Creating timer Orleans.Runtime.sync.SafeTimerBase with dueTime=00:30:00 period=-00:00:00.0010000	
+[2018-08-26 11:34:30.747 GMT 9	Debug	0	Orleans.Messaging.ClientMessageCenter]	Creating gateway to gwy.tcp://172.22.0.4:30000/272979257 for pre-addressed message	
+[2018-08-26 11:34:30.747 GMT 9	Debug	100914	Messaging.GatewayConnection/GatewayClientSender_gwy.tcp://172.22.0.4:30000/272979257]	Starting gateway connection for gateway gwy.tcp://172.22.0.4:30000/272979257	
+[2018-08-26 11:34:30.764 GMT 9	Information	100908	Messaging.GatewayConnection/GatewayClientSender_gwy.tcp://172.22.0.4:30000/272979257]	Connected to gateway at address gwy.tcp://172.22.0.4:30000/272979257 on trial 0.	
+[2018-08-26 11:34:30.774 GMT 9	Debug	0	Messaging.GatewayClientReceiver/gwy.tcp://172.22.0.4:30000/272979257]	Started asynch agent Messaging.GatewayClientReceiver/gwy.tcp://172.22.0.4:30000/272979257	
+[2018-08-26 11:34:30.777 GMT 14	Information	0	Messaging.GatewayClientReceiver/gwy.tcp://172.22.0.4:30000/272979257]	Starting AsyncAgent Messaging.GatewayClientReceiver/gwy.tcp://172.22.0.4:30000/272979257 on managed thread 14	
+[2018-08-26 11:34:30.778 GMT 9	Debug	0	Messaging.GatewayConnection/GatewayClientSender_gwy.tcp://172.22.0.4:30000/272979257]	Started asynch agent Messaging.GatewayConnection/GatewayClientSender_gwy.tcp://172.22.0.4:30000/272979257	
+[2018-08-26 11:34:30.784 GMT 15	Information	0	Messaging.GatewayConnection/GatewayClientSender_gwy.tcp://172.22.0.4:30000/272979257]	Starting AsyncAgent Messaging.GatewayConnection/GatewayClientSender_gwy.tcp://172.22.0.4:30000/272979257 on managed thread 15	
+[2018-08-26 11:34:31.045 GMT 5	Debug	101408	Orleans.Runtime.SafeTimer]	Disposing timer Orleans.Runtime.sync.SafeTimerBase	
+[2018-08-26 11:34:31.072 GMT 9	Debug	101404	Orleans.OutsideRuntimeClient]	Creating timer Orleans.Runtime.asynTask.SafeTimerBase with dueTime=00:01:00 period=00:01:00	
+[2018-08-26 11:34:31.073 GMT 9	Debug	101404	Orleans.Runtime.AsyncTaskSafeTimer]	Creating timer Orleans.Runtime.asynTask.SafeTimerBase with dueTime=00:05:00 period=00:05:00	
+[2018-08-26 11:34:31.080 GMT 9	Debug	101404	Orleans.Runtime.SafeTimer]	Creating timer Orleans.Runtime.sync.SafeTimerBase with dueTime=00:30:00 period=-00:00:00.0010000	
+[2018-08-26 11:34:31.093 GMT 5	Debug	101408	Orleans.Runtime.SafeTimer]	Disposing timer Orleans.Runtime.sync.SafeTimerBase	
+[2018-08-26 11:34:31.099 GMT 12	Information	100929	Orleans.OutsideRuntimeClient]	---------- Started OutsideRuntimeClient with Global Client ID: C172.22.0.5:0:-272979264*cli/dd997198@5bdab2a9, client GUID ID: *cli/dd997198	
+[2018-08-26 11:34:31.122 GMT 12	Information	0	Orleans.ClientOptionsLogger]	Configuration Orleans.Configuration.ClientMessagingOptions: 
+ClientSenderBuckets: 8192
+PreferredFamily: InterNetwork
+NetworkInterfaceName: 
+ResponseTimeout: 00:30:00
+ResponseTimeoutWithDebugger: 00:30:00
+MaxResendCount: 0
+ResendOnTimeout: False
+DropExpiredMessages: True
+BufferPoolBufferSize: 4096
+BufferPoolMaxSize: 10000
+BufferPoolPreallocationSize: 250
+PropagateActivityId: False
+	
+[2018-08-26 11:34:31.124 GMT 12	Information	0	Orleans.ClientOptionsLogger]	Configuration Orleans.Configuration.ClientStatisticsOptions: 
+PerfCountersWriteInterval: -00:00:00.0010000
+LogWriteInterval: 00:05:00
+CollectionLevel: Info
+	
+[2018-08-26 11:34:31.124 GMT 12	Information	0	Orleans.ClientOptionsLogger]	Configuration Orleans.Configuration.ClusterOptions: 
+ClusterId: PoC.Blog.BloggingCluster
+ServiceId: PoC.Blog.SiloHost
+	
+[2018-08-26 11:34:31.124 GMT 12	Information	0	Orleans.ClientOptionsLogger]	Configuration Orleans.Configuration.NetworkingOptions: 
+OpenConnectionTimeout: 00:00:05
+MaxSocketAge: 10675199.02:48:05.4775807
+	
+[2018-08-26 11:34:31.125 GMT 12	Information	100452	Orleans.LifecycleSubject]	Starting lifecycle stage -2147483648 took 14 Milliseconds	
+[2018-08-26 11:34:31.261 GMT 4	Debug	101404	Orleans.Runtime.SafeTimer]	Creating timer Orleans.Runtime.sync.SafeTimerBase with dueTime=00:30:00 period=-00:00:00.0010000	
+[2018-08-26 11:34:32.317 GMT 5	Debug	101408	Orleans.Runtime.SafeTimer]	Disposing timer Orleans.Runtime.sync.SafeTimerBase	
+[2018-08-26 11:34:44.999 GMT 9	Debug	101404	Orleans.Runtime.SafeTimer]	Creating timer Orleans.Runtime.sync.SafeTimerBase with dueTime=00:30:00 period=-00:00:00.0010000	
+[2018-08-26 11:34:45.452 GMT 5	Debug	101408	Orleans.Runtime.SafeTimer]	Disposing timer Orleans.Runtime.sync.SafeTimerBase	
+[2018-08-26 11:35:12.465 GMT 9	Debug	101404	Orleans.Runtime.SafeTimer]	Creating timer Orleans.Runtime.sync.SafeTimerBase with dueTime=00:30:00 period=-00:00:00.0010000	
+[2018-08-26 11:35:12.892 GMT 5	Debug	101408	Orleans.Runtime.SafeTimer]	Disposing timer Orleans.Runtime.sync.SafeTimerBase	
+[2018-08-26 11:35:25.484 GMT 12	Debug	0	Orleans.Messaging.GatewayManager]	Found 1 knownGateways from Gateway listProvider [gwy.tcp://172.22.0.4:30000/272979257]	
+[2018-08-26 11:35:25.484 GMT 12	Information	101309	Orleans.Messaging.GatewayManager]	Refreshed the live Gateway list. Found 1 gateways from Gateway listProvider: [gwy.tcp://172.22.0.4:30000/272979257]. Picked only known live out of them. Now has 1 live Gateways: [gwy.tcp://172.22.0.4:30000/272979257]. Previous refresh time was = 08/26/2018 11:34:26	
+[2018-08-26 11:35:31.568 GMT 9	Debug	101404	Orleans.Runtime.SafeTimer]	Creating timer Orleans.Runtime.sync.SafeTimerBase with dueTime=00:30:00 period=-00:00:00.0010000	
+[2018-08-26 11:35:31.602 GMT 12	Debug	101404	Orleans.Runtime.SafeTimer]	Creating timer Orleans.Runtime.sync.SafeTimerBase with dueTime=00:30:00 period=-00:00:00.0010000	
+[2018-08-26 11:35:38.532 GMT 5	Debug	101408	Orleans.Runtime.SafeTimer]	Disposing timer Orleans.Runtime.sync.SafeTimerBase	
+[2018-08-26 11:35:39.495 GMT 5	Debug	101408	Orleans.Runtime.SafeTimer]	Disposing timer Orleans.Runtime.sync.SafeTimerBase	
+[2018-08-26 11:38:00.307 GMT 5	Information	100313	Orleans.OutsideRuntimeClient]	---------- Initializing OutsideRuntimeClient on aa0b96dfff62 at 172.22.0.5 Client Id = *cli/d7054e82 ----------	
+[2018-08-26 11:38:00.347 GMT 5	Information	100314	Orleans.OutsideRuntimeClient]	---------- Starting OutsideRuntimeClient with runtime Version='2.0.3. Commit Hash: c5432c1809a37f12142fb1c489fb0a4f77ed3bda (Release).' in AppDomain=<AppDomain.Id=1, AppDomain.FriendlyName=PoC.Blog.WebClient>	
+[2018-08-26 11:38:02.036 GMT 9	Information	101309	Orleans.Messaging.GatewayManager]	Found 1 knownGateways from Gateway listProvider [gwy.tcp://172.22.0.4:30000/272979257]	
+[2018-08-26 11:38:02.039 GMT 9	Debug	101404	Orleans.Runtime.SafeTimer]	Creating timer Orleans.Runtime.sync.SafeTimerBase with dueTime=00:01:00 period=00:01:00	
+[2018-08-26 11:38:02.040 GMT 9	Debug	0	Orleans.Messaging.ClientMessageCenter]	Proxy grain client constructed	
+[2018-08-26 11:38:02.040 GMT 9	Debug	0	Orleans.Messaging.ClientMessageCenter]	Proxy grain client started	
+[2018-08-26 11:38:02.092 GMT 9	Debug	101404	Orleans.Runtime.SafeTimer]	Creating timer Orleans.Runtime.sync.SafeTimerBase with dueTime=00:30:00 period=-00:00:00.0010000	
+[2018-08-26 11:38:02.107 GMT 9	Debug	0	Orleans.Messaging.ClientMessageCenter]	Creating gateway to gwy.tcp://172.22.0.4:30000/272979257 for pre-addressed message	
+[2018-08-26 11:38:02.108 GMT 9	Debug	100914	Messaging.GatewayConnection/GatewayClientSender_gwy.tcp://172.22.0.4:30000/272979257]	Starting gateway connection for gateway gwy.tcp://172.22.0.4:30000/272979257	
+[2018-08-26 11:38:03.034 GMT 9	Warning	100178	Messaging.GatewayConnection/GatewayClientSender_gwy.tcp://172.22.0.4:30000/272979257]	Unable to connect to gateway at address gwy.tcp://172.22.0.4:30000/272979257 on trial 0 (Exception: Could not connect to 172.22.0.4:30000: ConnectionRefused)	
+[2018-08-26 11:38:03.039 GMT 9	Warning	100913	Messaging.GatewayConnection/GatewayClientSender_gwy.tcp://172.22.0.4:30000/272979257]	Marking gateway at address gwy.tcp://172.22.0.4:30000/272979257 as Disconnected	
+[2018-08-26 11:38:04.028 GMT 9	Warning	100178	Messaging.GatewayConnection/GatewayClientSender_gwy.tcp://172.22.0.4:30000/272979257]	Unable to connect to gateway at address gwy.tcp://172.22.0.4:30000/272979257 on trial 1 (Exception: Could not connect to 172.22.0.4:30000: ConnectionRefused)	
+[2018-08-26 11:38:04.031 GMT 9	Warning	100913	Messaging.GatewayConnection/GatewayClientSender_gwy.tcp://172.22.0.4:30000/272979257]	Marking gateway at address gwy.tcp://172.22.0.4:30000/272979257 as Disconnected	
+[2018-08-26 11:38:04.033 GMT 9	Warning	100912	Messaging.GatewayConnection/GatewayClientSender_gwy.tcp://172.22.0.4:30000/272979257]	Marking gateway at address gwy.tcp://172.22.0.4:30000/272979257 as Dead in my client local gateway list.	
+[2018-08-26 11:38:04.039 GMT 9	Debug	0	Messaging.GatewayClientReceiver/gwy.tcp://172.22.0.4:30000/272979257]	Stopped agent	
+[2018-08-26 11:38:04.050 GMT 12	Debug	0	Orleans.Messaging.GatewayManager]	Found 1 knownGateways from Gateway listProvider [gwy.tcp://172.22.0.4:30000/272979257]	
+[2018-08-26 11:38:04.055 GMT 12	Warning	101321	Orleans.Messaging.GatewayManager]	All gateways have previously been marked as dead. Clearing the list of dead gateways to expedite reconnection.	
+[2018-08-26 11:38:04.055 GMT 12	Information	101309	Orleans.Messaging.GatewayManager]	Refreshed the live Gateway list. Found 1 gateways from Gateway listProvider: [gwy.tcp://172.22.0.4:30000/272979257]. Picked only known live out of them. Now has 1 live Gateways: [gwy.tcp://172.22.0.4:30000/272979257]. Previous refresh time was = 08/26/2018 11:38:02	
+[2018-08-26 11:38:04.055 GMT 9	Debug	0	Messaging.GatewayConnection/GatewayClientSender_gwy.tcp://172.22.0.4:30000/272979257]	Stopped agent	
+[2018-08-26 11:38:04.060 GMT 9	Warning	100157	Orleans.Runtime.CallbackData]	The target silo became unavailable for message: Request *cli/d7054e82@3f89feab->S172.22.0.4:30000:272979257*stg/17/00000011@S00000011 #2: . Target History is: <S172.22.0.4:30000:272979257:*stg/17/00000011:@S00000011>. See https://aka.ms/orleans-troubleshooting for troubleshooting help. About to break its promise.	
+[2018-08-26 11:38:04.065 GMT 9	Debug	101408	Orleans.Runtime.SafeTimer]	Disposing timer Orleans.Runtime.sync.SafeTimerBase	
+[2018-08-26 11:38:04.068 GMT 9	Debug	100906	Orleans.Messaging.ClientMessageCenter]	Rejecting message: Request *cli/d7054e82@3f89feab->S172.22.0.4:30000:272979257*stg/17/00000011@S00000011 #2: . Reason = Target silo S172.22.0.4:30000:272979257 is unavailable	
+[2018-08-26 11:38:04.075 GMT 9	Debug	0	Orleans.Runtime.MessageFactory]	Creating Unrecoverable rejection with info 'Target silo S172.22.0.4:30000:272979257 is unavailable' for Orleans.Runtime.MessageFactory at:
+   at Orleans.Runtime.MessageFactory.CreateRejectionResponse(Message request, RejectionTypes type, String info, Exception ex)
+   at Orleans.Messaging.ClientMessageCenter.RejectMessage(Message msg, String reasonFormat, Object[] reasonParams)
+   at Orleans.Messaging.ClientMessageCenter.RejectOrResend(Message msg)
+   at Orleans.Messaging.ClientMessageCenter.SendMessage(Message msg)
+   at Orleans.OutsideRuntimeClient.SendRequestMessage(GrainReference target, Message message, TaskCompletionSource`1 context, Action`2 callback, String debugContext, InvokeMethodOptions options, String genericArguments)
+   at Orleans.Runtime.GrainReferenceRuntime.SendRequest(GrainReference reference, InvokeMethodRequest request, String debugContext, InvokeMethodOptions options)
+   at Orleans.Runtime.GrainReferenceRuntime.InvokeMethodAsync[T](GrainReference reference, Int32 methodId, Object[] arguments, InvokeMethodOptions options, SiloAddress silo)
+   at Orleans.OutsideRuntimeClient.<StartInternal>b__58_2()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Orleans.OutsideRuntimeClient.<StartInternal>b__58_2()
+   at Orleans.OutsideRuntimeClient.<StartInternal>g__ExecuteWithRetries58_3(Func`1 task, Func`2 shouldRetry)
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Orleans.OutsideRuntimeClient.<StartInternal>g__ExecuteWithRetries58_3(Func`1 task, Func`2 shouldRetry)
+   at Orleans.OutsideRuntimeClient.StartInternal(Func`2 retryFilter)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+   at System.Threading.Tasks.AwaitTaskContinuation.RunOrScheduleAction(IAsyncStateMachineBox box, Boolean allowInlining)
+   at System.Threading.Tasks.Task.RunContinuations(Object continuationObject)
+   at System.Threading.Tasks.Task`1.TrySetResult(TResult result)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetExistingTaskResult(TResult result)
+   at Orleans.OutsideRuntimeClient.<StartInternal>g__ExecuteWithRetries58_3(Func`1 task, Func`2 shouldRetry)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+   at System.Threading.Tasks.AwaitTaskContinuation.RunOrScheduleAction(IAsyncStateMachineBox box, Boolean allowInlining)
+   at System.Threading.Tasks.Task.RunContinuations(Object continuationObject)
+   at System.Threading.Tasks.Task`1.TrySetResult(TResult result)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetExistingTaskResult(TResult result)
+   at Orleans.OutsideRuntimeClient.<>c__DisplayClass58_0.<<StartInternal>b__0>d.MoveNext()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+   at System.Threading.Tasks.AwaitTaskContinuation.RunOrScheduleAction(IAsyncStateMachineBox box, Boolean allowInlining)
+   at System.Threading.Tasks.Task.RunContinuations(Object continuationObject)
+   at System.Threading.Tasks.Task`1.TrySetResult(TResult result)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetExistingTaskResult(TResult result)
+   at Orleans.Runtime.Membership.AdoNetGatewayListProvider.GetGateways()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+   at System.Threading.Tasks.AwaitTaskContinuation.RunOrScheduleAction(IAsyncStateMachineBox box, Boolean allowInlining)
+   at System.Threading.Tasks.Task.RunContinuations(Object continuationObject)
+   at System.Threading.Tasks.Task`1.TrySetResult(TResult result)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetExistingTaskResult(TResult result)
+   at Orleans.Clustering.AdoNet.Storage.RelationalOrleansQueries.ReadAsync[TResult,TAggregate](String query, Func`2 selector, Func`2 parameterProvider, Func`2 aggregator)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+   at System.Threading.Tasks.AwaitTaskContinuation.RunOrScheduleAction(IAsyncStateMachineBox box, Boolean allowInlining)
+   at System.Threading.Tasks.Task.RunContinuations(Object continuationObject)
+   at System.Threading.Tasks.Task`1.TrySetResult(TResult result)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetExistingTaskResult(TResult result)
+   at Orleans.Clustering.AdoNet.Storage.RelationalStorage.ReadAsync[TResult](String query, Action`1 parameterProvider, Func`4 selector, CancellationToken cancellationToken, CommandBehavior commandBehavior)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+   at System.Threading.Tasks.AwaitTaskContinuation.RunOrScheduleAction(IAsyncStateMachineBox box, Boolean allowInlining)
+   at System.Threading.Tasks.Task.RunContinuations(Object continuationObject)
+   at System.Threading.Tasks.Task`1.TrySetResult(TResult result)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetExistingTaskResult(TResult result)
+   at Orleans.Clustering.AdoNet.Storage.RelationalStorage.ExecuteAsync[TResult](String query, Action`1 parameterProvider, Func`5 executor, Func`4 selector, CancellationToken cancellationToken, CommandBehavior commandBehavior)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+   at System.Threading.Tasks.AwaitTaskContinuation.RunOrScheduleAction(IAsyncStateMachineBox box, Boolean allowInlining)
+   at System.Threading.Tasks.Task.RunContinuations(Object continuationObject)
+   at System.Threading.Tasks.Task`1.TrySetResult(TResult result)
+   at System.Threading.Tasks.UnwrapPromise`1.TrySetFromTask(Task task, Boolean lookForOce)
+   at System.Threading.Tasks.UnwrapPromise`1.InvokeCore(Task completingTask)
+   at System.Threading.Tasks.UnwrapPromise`1.Invoke(Task completingTask)
+   at System.Threading.Tasks.Task.RunContinuations(Object continuationObject)
+   at System.Threading.Tasks.Task`1.TrySetResult(TResult result)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetExistingTaskResult(TResult result)
+   at Orleans.Clustering.AdoNet.Storage.RelationalStorage.ExecuteReaderAsync[TResult](DbCommand command, Func`4 selector, CancellationToken cancellationToken, CommandBehavior commandBehavior)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+   at System.Threading.Tasks.AwaitTaskContinuation.RunOrScheduleAction(IAsyncStateMachineBox box, Boolean allowInlining)
+   at System.Threading.Tasks.Task.RunContinuations(Object continuationObject)
+   at System.Threading.Tasks.Task`1.TrySetResult(TResult result)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetExistingTaskResult(TResult result)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReader(CommandBehavior behavior, Boolean async, CancellationToken cancellationToken)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+   at System.Threading.Tasks.AwaitTaskContinuation.RunOrScheduleAction(IAsyncStateMachineBox box, Boolean allowInlining)
+   at System.Threading.Tasks.Task.RunContinuations(Object continuationObject)
+   at System.Threading.Tasks.Task`1.TrySetResult(TResult result)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetExistingTaskResult(TResult result)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+   at System.Threading.Tasks.AwaitTaskContinuation.RunOrScheduleAction(IAsyncStateMachineBox box, Boolean allowInlining)
+   at System.Threading.Tasks.Task.RunContinuations(Object continuationObject)
+   at System.Threading.Tasks.Task`1.TrySetResult(TResult result)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetExistingTaskResult(TResult result)
+   at Npgsql.NpgsqlConnector.<>c__DisplayClass161_0.<<ReadMessage>g__ReadMessageLong|0>d.MoveNext()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+   at System.Threading.Tasks.AwaitTaskContinuation.RunOrScheduleAction(IAsyncStateMachineBox box, Boolean allowInlining)
+   at System.Threading.Tasks.Task.RunContinuations(Object continuationObject)
+   at System.Threading.Tasks.Task`1.TrySetResult(TResult result)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetExistingTaskResult(TResult result)
+   at Npgsql.NpgsqlReadBuffer.<>c__DisplayClass31_0.<<Ensure>g__EnsureLong|0>d.MoveNext()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+   at System.Net.Sockets.SocketAsyncEventArgs.OnCompleted(SocketAsyncEventArgs e)
+   at System.Net.Sockets.SocketAsyncEventArgs.ExecutionCallback(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Net.Sockets.SocketAsyncEventArgs.FinishOperationAsyncSuccess(Int32 bytesTransferred, SocketFlags flags)
+   at System.Net.Sockets.SocketAsyncEventArgs.CompletionCallback(Int32 bytesTransferred, SocketFlags flags, SocketError socketError)
+   at System.Net.Sockets.SocketAsyncEventArgs.TransferCompletionCallbackCore(Int32 bytesTransferred, Byte[] socketAddress, Int32 socketAddressSize, SocketFlags receivedFlags, SocketError socketError)
+   at System.Net.Sockets.SocketAsyncContext.BufferMemoryReceiveOperation.InvokeCallback(Boolean allowPooling)
+   at System.Net.Sockets.SocketAsyncContext.OperationQueue`1.ProcessAsyncOperation(TOperation op)
+   at System.Net.Sockets.SocketAsyncContext.OperationQueue`1.<>c.<.cctor>b__18_0(Object op)
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+	
+[2018-08-26 11:38:04.077 GMT 4	Warning	100011	Orleans.OutsideRuntimeClient]	No callback for response message: Unrecoverable Rejection (info: Target silo S172.22.0.4:30000:272979257 is unavailable) Response S172.22.0.4:30000:272979257*stg/17/00000011@S00000011->*cli/d7054e82@3f89feab #2: 	
+[2018-08-26 11:38:08.100 GMT 9	Debug	101404	Orleans.Runtime.SafeTimer]	Creating timer Orleans.Runtime.sync.SafeTimerBase with dueTime=00:30:00 period=-00:00:00.0010000	
+[2018-08-26 11:38:08.100 GMT 9	Debug	0	Orleans.Messaging.ClientMessageCenter]	Creating gateway to gwy.tcp://172.22.0.4:30000/272979257 for pre-addressed message	
+[2018-08-26 11:38:08.100 GMT 9	Debug	100914	Messaging.GatewayConnection/GatewayClientSender_gwy.tcp://172.22.0.4:30000/272979257]	Starting gateway connection for gateway gwy.tcp://172.22.0.4:30000/272979257	
+[2018-08-26 11:38:08.100 GMT 9	Warning	100178	Messaging.GatewayConnection/GatewayClientSender_gwy.tcp://172.22.0.4:30000/272979257]	Unable to connect to gateway at address gwy.tcp://172.22.0.4:30000/272979257 on trial 0 (Exception: Could not connect to 172.22.0.4:30000: ConnectionRefused)	
+[2018-08-26 11:38:08.100 GMT 9	Warning	100913	Messaging.GatewayConnection/GatewayClientSender_gwy.tcp://172.22.0.4:30000/272979257]	Marking gateway at address gwy.tcp://172.22.0.4:30000/272979257 as Disconnected	
+[2018-08-26 11:38:08.127 GMT 9	Debug	100909	Messaging.GatewayConnection/GatewayClientSender_gwy.tcp://172.22.0.4:30000/272979257]	Pausing for 00:00:00.0726112 before trying to connect to gateway gwy.tcp://172.22.0.4:30000/272979257 on trial 1	
+[2018-08-26 11:38:08.129 GMT 12	Debug	0	Orleans.Messaging.GatewayManager]	Found 0 knownGateways from Gateway listProvider []	
+[2018-08-26 11:38:08.129 GMT 12	Warning	101321	Orleans.Messaging.GatewayManager]	All gateways have previously been marked as dead. Clearing the list of dead gateways to expedite reconnection.	
+[2018-08-26 11:38:08.129 GMT 12	Information	101309	Orleans.Messaging.GatewayManager]	Refreshed the live Gateway list. Found 0 gateways from Gateway listProvider: []. Picked only known live out of them. Now has 0 live Gateways: []. Previous refresh time was = 08/26/2018 11:38:04	
+[2018-08-26 11:38:08.200 GMT 9	Warning	100178	Messaging.GatewayConnection/GatewayClientSender_gwy.tcp://172.22.0.4:30000/272979257]	Unable to connect to gateway at address gwy.tcp://172.22.0.4:30000/272979257 on trial 1 (Exception: Could not connect to 172.22.0.4:30000: ConnectionRefused)	
+[2018-08-26 11:38:08.200 GMT 9	Warning	100913	Messaging.GatewayConnection/GatewayClientSender_gwy.tcp://172.22.0.4:30000/272979257]	Marking gateway at address gwy.tcp://172.22.0.4:30000/272979257 as Disconnected	
+[2018-08-26 11:38:08.200 GMT 9	Warning	100912	Messaging.GatewayConnection/GatewayClientSender_gwy.tcp://172.22.0.4:30000/272979257]	Marking gateway at address gwy.tcp://172.22.0.4:30000/272979257 as Dead in my client local gateway list.	
+[2018-08-26 11:38:08.200 GMT 9	Debug	0	Messaging.GatewayClientReceiver/gwy.tcp://172.22.0.4:30000/272979257]	Stopped agent	
+[2018-08-26 11:38:08.200 GMT 9	Debug	0	Messaging.GatewayConnection/GatewayClientSender_gwy.tcp://172.22.0.4:30000/272979257]	Stopped agent	
+[2018-08-26 11:38:08.200 GMT 9	Warning	100157	Orleans.Runtime.CallbackData]	The target silo became unavailable for message: Request *cli/d7054e82@3f89feab->S172.22.0.4:30000:272979257*stg/17/00000011@S00000011 #3: . Target History is: <S172.22.0.4:30000:272979257:*stg/17/00000011:@S00000011>. See https://aka.ms/orleans-troubleshooting for troubleshooting help. About to break its promise.	
+[2018-08-26 11:38:08.200 GMT 9	Debug	101408	Orleans.Runtime.SafeTimer]	Disposing timer Orleans.Runtime.sync.SafeTimerBase	
+[2018-08-26 11:38:08.200 GMT 9	Debug	100906	Orleans.Messaging.ClientMessageCenter]	Rejecting message: Request *cli/d7054e82@3f89feab->S172.22.0.4:30000:272979257*stg/17/00000011@S00000011 #3: . Reason = Target silo S172.22.0.4:30000:272979257 is unavailable	
+[2018-08-26 11:38:08.211 GMT 9	Debug	0	Orleans.Runtime.MessageFactory]	Creating Unrecoverable rejection with info 'Target silo S172.22.0.4:30000:272979257 is unavailable' for Orleans.Runtime.MessageFactory at:
+   at Orleans.Runtime.MessageFactory.CreateRejectionResponse(Message request, RejectionTypes type, String info, Exception ex)
+   at Orleans.Messaging.ClientMessageCenter.RejectMessage(Message msg, String reasonFormat, Object[] reasonParams)
+   at Orleans.Messaging.ClientMessageCenter.RejectOrResend(Message msg)
+   at Orleans.Messaging.ClientMessageCenter.SendMessage(Message msg)
+   at Orleans.OutsideRuntimeClient.SendRequestMessage(GrainReference target, Message message, TaskCompletionSource`1 context, Action`2 callback, String debugContext, InvokeMethodOptions options, String genericArguments)
+   at Orleans.Runtime.GrainReferenceRuntime.SendRequest(GrainReference reference, InvokeMethodRequest request, String debugContext, InvokeMethodOptions options)
+   at Orleans.Runtime.GrainReferenceRuntime.InvokeMethodAsync[T](GrainReference reference, Int32 methodId, Object[] arguments, InvokeMethodOptions options, SiloAddress silo)
+   at Orleans.OutsideRuntimeClient.<StartInternal>b__58_2()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Orleans.OutsideRuntimeClient.<StartInternal>b__58_2()
+   at Orleans.OutsideRuntimeClient.<StartInternal>g__ExecuteWithRetries58_3(Func`1 task, Func`2 shouldRetry)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+   at System.Threading.Tasks.AwaitTaskContinuation.RunOrScheduleAction(IAsyncStateMachineBox box, Boolean allowInlining)
+   at System.Threading.Tasks.Task.RunContinuations(Object continuationObject)
+   at System.Threading.Tasks.Task`1.TrySetResult(TResult result)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetExistingTaskResult(TResult result)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetResult(TResult result)
+   at PoC.Blog.WebClient.OrleansHelper.RetryFilter(Exception exception)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+   at System.Threading.Tasks.AwaitTaskContinuation.RunOrScheduleAction(IAsyncStateMachineBox box, Boolean allowInlining)
+   at System.Threading.Tasks.Task.RunContinuations(Object continuationObject)
+   at System.Threading.Tasks.Task`1.TrySetResult(TResult result)
+   at System.Threading.Tasks.Task.DelayPromise.Complete()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.TimerQueueTimer.CallCallback()
+   at System.Threading.TimerQueueTimer.Fire()
+   at System.Threading.TimerQueue.FireNextTimers()
+	
+[2018-08-26 11:38:08.222 GMT 12	Debug	0	Orleans.Messaging.GatewayManager]	Found 0 knownGateways from Gateway listProvider []	
+[2018-08-26 11:38:08.222 GMT 12	Warning	101321	Orleans.Messaging.GatewayManager]	All gateways have previously been marked as dead. Clearing the list of dead gateways to expedite reconnection.	
+[2018-08-26 11:38:08.222 GMT 12	Information	101309	Orleans.Messaging.GatewayManager]	Refreshed the live Gateway list. Found 0 gateways from Gateway listProvider: []. Picked only known live out of them. Now has 0 live Gateways: []. Previous refresh time was = 08/26/2018 11:38:08	
+[2018-08-26 11:38:08.222 GMT 4	Warning	100011	Orleans.OutsideRuntimeClient]	No callback for response message: Unrecoverable Rejection (info: Target silo S172.22.0.4:30000:272979257 is unavailable) Response S172.22.0.4:30000:272979257*stg/17/00000011@S00000011->*cli/d7054e82@3f89feab #3: 	
+[2018-08-26 11:38:12.222 GMT 13	Debug	0	Orleans.Messaging.GatewayManager]	Found 1 knownGateways from Gateway listProvider [gwy.tcp://172.22.0.4:30000/272979476]	
+[2018-08-26 11:38:25.530 GMT 9	Information	100313	Orleans.OutsideRuntimeClient]	---------- Initializing OutsideRuntimeClient on aa0b96dfff62 at 172.22.0.5 Client Id = *cli/c01db3a3 ----------	
+[2018-08-26 11:38:25.534 GMT 9	Information	100314	Orleans.OutsideRuntimeClient]	---------- Starting OutsideRuntimeClient with runtime Version='2.0.3. Commit Hash: c5432c1809a37f12142fb1c489fb0a4f77ed3bda (Release).' in AppDomain=<AppDomain.Id=1, AppDomain.FriendlyName=PoC.Blog.WebClient>	
+[2018-08-26 11:38:25.684 GMT 5	Information	101309	Orleans.Messaging.GatewayManager]	Found 1 knownGateways from Gateway listProvider [gwy.tcp://172.22.0.4:30000/272979476]	
+[2018-08-26 11:38:25.685 GMT 5	Debug	101404	Orleans.Runtime.SafeTimer]	Creating timer Orleans.Runtime.sync.SafeTimerBase with dueTime=00:01:00 period=00:01:00	
+[2018-08-26 11:38:25.685 GMT 5	Debug	0	Orleans.Messaging.ClientMessageCenter]	Proxy grain client constructed	
+[2018-08-26 11:38:25.685 GMT 5	Debug	0	Orleans.Messaging.ClientMessageCenter]	Proxy grain client started	
+[2018-08-26 11:38:25.686 GMT 5	Debug	101404	Orleans.Runtime.SafeTimer]	Creating timer Orleans.Runtime.sync.SafeTimerBase with dueTime=00:30:00 period=-00:00:00.0010000	
+[2018-08-26 11:38:25.688 GMT 5	Debug	0	Orleans.Messaging.ClientMessageCenter]	Creating gateway to gwy.tcp://172.22.0.4:30000/272979476 for pre-addressed message	
+[2018-08-26 11:38:25.688 GMT 5	Debug	100914	Messaging.GatewayConnection/GatewayClientSender_gwy.tcp://172.22.0.4:30000/272979476]	Starting gateway connection for gateway gwy.tcp://172.22.0.4:30000/272979476	
+[2018-08-26 11:38:25.714 GMT 5	Information	100908	Messaging.GatewayConnection/GatewayClientSender_gwy.tcp://172.22.0.4:30000/272979476]	Connected to gateway at address gwy.tcp://172.22.0.4:30000/272979476 on trial 0.	
+[2018-08-26 11:38:25.716 GMT 5	Debug	0	Messaging.GatewayClientReceiver/gwy.tcp://172.22.0.4:30000/272979476]	Started asynch agent Messaging.GatewayClientReceiver/gwy.tcp://172.22.0.4:30000/272979476	
+[2018-08-26 11:38:25.738 GMT 5	Debug	0	Messaging.GatewayConnection/GatewayClientSender_gwy.tcp://172.22.0.4:30000/272979476]	Started asynch agent Messaging.GatewayConnection/GatewayClientSender_gwy.tcp://172.22.0.4:30000/272979476	
+[2018-08-26 11:38:25.741 GMT 16	Information	0	Messaging.GatewayConnection/GatewayClientSender_gwy.tcp://172.22.0.4:30000/272979476]	Starting AsyncAgent Messaging.GatewayConnection/GatewayClientSender_gwy.tcp://172.22.0.4:30000/272979476 on managed thread 16	
+[2018-08-26 11:38:25.741 GMT 15	Information	0	Messaging.GatewayClientReceiver/gwy.tcp://172.22.0.4:30000/272979476]	Starting AsyncAgent Messaging.GatewayClientReceiver/gwy.tcp://172.22.0.4:30000/272979476 on managed thread 15	
+[2018-08-26 11:38:25.942 GMT 13	Debug	101408	Orleans.Runtime.SafeTimer]	Disposing timer Orleans.Runtime.sync.SafeTimerBase	
+[2018-08-26 11:38:25.970 GMT 5	Debug	101404	Orleans.OutsideRuntimeClient]	Creating timer Orleans.Runtime.asynTask.SafeTimerBase with dueTime=00:01:00 period=00:01:00	
+[2018-08-26 11:38:25.971 GMT 5	Debug	101404	Orleans.Runtime.AsyncTaskSafeTimer]	Creating timer Orleans.Runtime.asynTask.SafeTimerBase with dueTime=00:05:00 period=00:05:00	
+[2018-08-26 11:38:25.979 GMT 5	Debug	101404	Orleans.Runtime.SafeTimer]	Creating timer Orleans.Runtime.sync.SafeTimerBase with dueTime=00:30:00 period=-00:00:00.0010000	
+[2018-08-26 11:38:26.000 GMT 13	Debug	101408	Orleans.Runtime.SafeTimer]	Disposing timer Orleans.Runtime.sync.SafeTimerBase	
+[2018-08-26 11:38:26.006 GMT 5	Information	100929	Orleans.OutsideRuntimeClient]	---------- Started OutsideRuntimeClient with Global Client ID: C172.22.0.5:0:-272979505*cli/c01db3a3@b1c87c97, client GUID ID: *cli/c01db3a3	
+[2018-08-26 11:38:26.034 GMT 5	Information	0	Orleans.ClientOptionsLogger]	Configuration Orleans.Configuration.ClientMessagingOptions: 
+ClientSenderBuckets: 8192
+PreferredFamily: InterNetwork
+NetworkInterfaceName: 
+ResponseTimeout: 00:30:00
+ResponseTimeoutWithDebugger: 00:30:00
+MaxResendCount: 0
+ResendOnTimeout: False
+DropExpiredMessages: True
+BufferPoolBufferSize: 4096
+BufferPoolMaxSize: 10000
+BufferPoolPreallocationSize: 250
+PropagateActivityId: False
+	
+[2018-08-26 11:38:26.034 GMT 5	Information	0	Orleans.ClientOptionsLogger]	Configuration Orleans.Configuration.ClientStatisticsOptions: 
+PerfCountersWriteInterval: -00:00:00.0010000
+LogWriteInterval: 00:05:00
+CollectionLevel: Info
+	
+[2018-08-26 11:38:26.035 GMT 5	Information	0	Orleans.ClientOptionsLogger]	Configuration Orleans.Configuration.ClusterOptions: 
+ClusterId: PoC.Blog.BloggingCluster
+ServiceId: PoC.Blog.SiloHost
+	
+[2018-08-26 11:38:26.035 GMT 5	Information	0	Orleans.ClientOptionsLogger]	Configuration Orleans.Configuration.NetworkingOptions: 
+OpenConnectionTimeout: 00:00:05
+MaxSocketAge: 10675199.02:48:05.4775807
+	
+[2018-08-26 11:38:26.035 GMT 5	Information	100452	Orleans.LifecycleSubject]	Starting lifecycle stage -2147483648 took 14 Milliseconds	
+[2018-08-26 11:38:33.009 GMT 9	Debug	101404	Orleans.Runtime.SafeTimer]	Creating timer Orleans.Runtime.sync.SafeTimerBase with dueTime=00:30:00 period=-00:00:00.0010000	
+[2018-08-26 11:38:53.178 GMT 13	Debug	101408	Orleans.Runtime.SafeTimer]	Disposing timer Orleans.Runtime.sync.SafeTimerBase	
+[2018-08-26 11:40:04.204 GMT 5	Information	100313	Orleans.OutsideRuntimeClient]	---------- Initializing OutsideRuntimeClient on aa0b96dfff62 at 172.22.0.5 Client Id = *cli/2271cc81 ----------	
+[2018-08-26 11:40:04.240 GMT 5	Information	100314	Orleans.OutsideRuntimeClient]	---------- Starting OutsideRuntimeClient with runtime Version='2.0.3. Commit Hash: c5432c1809a37f12142fb1c489fb0a4f77ed3bda (Release).' in AppDomain=<AppDomain.Id=1, AppDomain.FriendlyName=PoC.Blog.WebClient>	
+[2018-08-26 11:40:05.464 GMT 4	Information	101309	Orleans.Messaging.GatewayManager]	Found 1 knownGateways from Gateway listProvider [gwy.tcp://172.22.0.4:30000/272979592]	
+[2018-08-26 11:40:05.466 GMT 4	Debug	101404	Orleans.Runtime.SafeTimer]	Creating timer Orleans.Runtime.sync.SafeTimerBase with dueTime=00:01:00 period=00:01:00	
+[2018-08-26 11:40:05.467 GMT 4	Debug	0	Orleans.Messaging.ClientMessageCenter]	Proxy grain client constructed	
+[2018-08-26 11:40:05.469 GMT 4	Debug	0	Orleans.Messaging.ClientMessageCenter]	Proxy grain client started	
+[2018-08-26 11:40:05.517 GMT 4	Debug	101404	Orleans.Runtime.SafeTimer]	Creating timer Orleans.Runtime.sync.SafeTimerBase with dueTime=00:30:00 period=-00:00:00.0010000	
+[2018-08-26 11:40:05.531 GMT 4	Debug	0	Orleans.Messaging.ClientMessageCenter]	Creating gateway to gwy.tcp://172.22.0.4:30000/272979592 for pre-addressed message	
+[2018-08-26 11:40:05.533 GMT 4	Debug	100914	Messaging.GatewayConnection/GatewayClientSender_gwy.tcp://172.22.0.4:30000/272979592]	Starting gateway connection for gateway gwy.tcp://172.22.0.4:30000/272979592	
+[2018-08-26 11:40:06.455 GMT 4	Information	100908	Messaging.GatewayConnection/GatewayClientSender_gwy.tcp://172.22.0.4:30000/272979592]	Connected to gateway at address gwy.tcp://172.22.0.4:30000/272979592 on trial 0.	
+[2018-08-26 11:40:06.462 GMT 4	Debug	0	Messaging.GatewayClientReceiver/gwy.tcp://172.22.0.4:30000/272979592]	Started asynch agent Messaging.GatewayClientReceiver/gwy.tcp://172.22.0.4:30000/272979592	
+[2018-08-26 11:40:06.467 GMT 4	Debug	0	Messaging.GatewayConnection/GatewayClientSender_gwy.tcp://172.22.0.4:30000/272979592]	Started asynch agent Messaging.GatewayConnection/GatewayClientSender_gwy.tcp://172.22.0.4:30000/272979592	
+[2018-08-26 11:40:06.470 GMT 13	Information	0	Messaging.GatewayClientReceiver/gwy.tcp://172.22.0.4:30000/272979592]	Starting AsyncAgent Messaging.GatewayClientReceiver/gwy.tcp://172.22.0.4:30000/272979592 on managed thread 13	
+[2018-08-26 11:40:06.470 GMT 14	Information	0	Messaging.GatewayConnection/GatewayClientSender_gwy.tcp://172.22.0.4:30000/272979592]	Starting AsyncAgent Messaging.GatewayConnection/GatewayClientSender_gwy.tcp://172.22.0.4:30000/272979592 on managed thread 14	
+[2018-08-26 11:40:06.731 GMT 10	Debug	101408	Orleans.Runtime.SafeTimer]	Disposing timer Orleans.Runtime.sync.SafeTimerBase	
+[2018-08-26 11:40:06.762 GMT 12	Debug	101404	Orleans.OutsideRuntimeClient]	Creating timer Orleans.Runtime.asynTask.SafeTimerBase with dueTime=00:01:00 period=00:01:00	
+[2018-08-26 11:40:06.764 GMT 12	Debug	101404	Orleans.Runtime.AsyncTaskSafeTimer]	Creating timer Orleans.Runtime.asynTask.SafeTimerBase with dueTime=00:05:00 period=00:05:00	
+[2018-08-26 11:40:06.772 GMT 12	Debug	101404	Orleans.Runtime.SafeTimer]	Creating timer Orleans.Runtime.sync.SafeTimerBase with dueTime=00:30:00 period=-00:00:00.0010000	
+[2018-08-26 11:40:06.792 GMT 10	Debug	101408	Orleans.Runtime.SafeTimer]	Disposing timer Orleans.Runtime.sync.SafeTimerBase	
+[2018-08-26 11:40:06.799 GMT 12	Information	100929	Orleans.OutsideRuntimeClient]	---------- Started OutsideRuntimeClient with Global Client ID: C172.22.0.5:0:-272979605*cli/2271cc81@d8736e84, client GUID ID: *cli/2271cc81	
+[2018-08-26 11:40:06.827 GMT 12	Information	0	Orleans.ClientOptionsLogger]	Configuration Orleans.Configuration.ClientMessagingOptions: 
+ClientSenderBuckets: 8192
+PreferredFamily: InterNetwork
+NetworkInterfaceName: 
+ResponseTimeout: 00:30:00
+ResponseTimeoutWithDebugger: 00:30:00
+MaxResendCount: 0
+ResendOnTimeout: False
+DropExpiredMessages: True
+BufferPoolBufferSize: 4096
+BufferPoolMaxSize: 10000
+BufferPoolPreallocationSize: 250
+PropagateActivityId: False
+	
+[2018-08-26 11:40:06.827 GMT 12	Information	0	Orleans.ClientOptionsLogger]	Configuration Orleans.Configuration.ClientStatisticsOptions: 
+PerfCountersWriteInterval: -00:00:00.0010000
+LogWriteInterval: 00:05:00
+CollectionLevel: Info
+	
+[2018-08-26 11:40:06.827 GMT 12	Information	0	Orleans.ClientOptionsLogger]	Configuration Orleans.Configuration.ClusterOptions: 
+ClusterId: PoC.Blog.BloggingCluster
+ServiceId: PoC.Blog.SiloHost
+	
+[2018-08-26 11:40:06.827 GMT 12	Information	0	Orleans.ClientOptionsLogger]	Configuration Orleans.Configuration.NetworkingOptions: 
+OpenConnectionTimeout: 00:00:05
+MaxSocketAge: 10675199.02:48:05.4775807
+	
+[2018-08-26 11:40:06.828 GMT 12	Information	100452	Orleans.LifecycleSubject]	Starting lifecycle stage -2147483648 took 15 Milliseconds	
+[2018-08-26 11:40:11.346 GMT 5	Debug	101404	Orleans.Runtime.SafeTimer]	Creating timer Orleans.Runtime.sync.SafeTimerBase with dueTime=00:30:00 period=-00:00:00.0010000	
+[2018-08-26 11:40:16.417 GMT 10	Debug	101408	Orleans.Runtime.SafeTimer]	Disposing timer Orleans.Runtime.sync.SafeTimerBase	
+[2018-08-26 11:40:26.757 GMT 4	Debug	101404	Orleans.Runtime.SafeTimer]	Creating timer Orleans.Runtime.sync.SafeTimerBase with dueTime=00:30:00 period=-00:00:00.0010000	
+[2018-08-26 11:40:26.789 GMT 10	Debug	101408	Orleans.Runtime.SafeTimer]	Disposing timer Orleans.Runtime.sync.SafeTimerBase	
+[2018-08-26 11:40:42.346 GMT 5	Debug	101404	Orleans.Runtime.SafeTimer]	Creating timer Orleans.Runtime.sync.SafeTimerBase with dueTime=00:30:00 period=-00:00:00.0010000	
+[2018-08-26 11:40:42.440 GMT 10	Debug	101408	Orleans.Runtime.SafeTimer]	Disposing timer Orleans.Runtime.sync.SafeTimerBase	
+[2018-08-26 11:41:05.524 GMT 4	Debug	0	Orleans.Messaging.GatewayManager]	Found 1 knownGateways from Gateway listProvider [gwy.tcp://172.22.0.4:30000/272979592]	
+[2018-08-26 11:41:05.527 GMT 4	Information	101309	Orleans.Messaging.GatewayManager]	Refreshed the live Gateway list. Found 1 gateways from Gateway listProvider: [gwy.tcp://172.22.0.4:30000/272979592]. Picked only known live out of them. Now has 1 live Gateways: [gwy.tcp://172.22.0.4:30000/272979592]. Previous refresh time was = 08/26/2018 11:40:05	
+[2018-08-26 11:41:06.769 GMT 4	Debug	101404	Orleans.Runtime.SafeTimer]	Creating timer Orleans.Runtime.sync.SafeTimerBase with dueTime=00:30:00 period=-00:00:00.0010000	
+[2018-08-26 11:41:06.777 GMT 10	Debug	101408	Orleans.Runtime.SafeTimer]	Disposing timer Orleans.Runtime.sync.SafeTimerBase	
+[2018-08-26 11:41:17.440 GMT 5	Debug	101404	Orleans.Runtime.SafeTimer]	Creating timer Orleans.Runtime.sync.SafeTimerBase with dueTime=00:30:00 period=-00:00:00.0010000	
+[2018-08-26 11:46:26.709 GMT 14	Information	100313	Orleans.OutsideRuntimeClient]	---------- Initializing OutsideRuntimeClient on aa0b96dfff62 at 172.22.0.5 Client Id = *cli/f289aa86 ----------	
+[2018-08-26 11:46:26.745 GMT 14	Information	100314	Orleans.OutsideRuntimeClient]	---------- Starting OutsideRuntimeClient with runtime Version='2.0.3. Commit Hash: c5432c1809a37f12142fb1c489fb0a4f77ed3bda (Release).' in AppDomain=<AppDomain.Id=1, AppDomain.FriendlyName=PoC.Blog.WebClient>	
+[2018-08-26 11:46:28.796 GMT 12	Information	101309	Orleans.Messaging.GatewayManager]	Found 1 knownGateways from Gateway listProvider [gwy.tcp://172.22.0.4:30000/272979900]	
+[2018-08-26 11:46:28.799 GMT 12	Debug	101404	Orleans.Runtime.SafeTimer]	Creating timer Orleans.Runtime.sync.SafeTimerBase with dueTime=00:01:00 period=00:01:00	
+[2018-08-26 11:46:28.800 GMT 12	Debug	0	Orleans.Messaging.ClientMessageCenter]	Proxy grain client constructed	
+[2018-08-26 11:46:28.801 GMT 12	Debug	0	Orleans.Messaging.ClientMessageCenter]	Proxy grain client started	
+[2018-08-26 11:46:28.852 GMT 12	Debug	101404	Orleans.Runtime.SafeTimer]	Creating timer Orleans.Runtime.sync.SafeTimerBase with dueTime=00:30:00 period=-00:00:00.0010000	
+[2018-08-26 11:46:28.865 GMT 12	Debug	0	Orleans.Messaging.ClientMessageCenter]	Creating gateway to gwy.tcp://172.22.0.4:30000/272979900 for pre-addressed message	
+[2018-08-26 11:46:28.866 GMT 12	Debug	100914	Messaging.GatewayConnection/GatewayClientSender_gwy.tcp://172.22.0.4:30000/272979900]	Starting gateway connection for gateway gwy.tcp://172.22.0.4:30000/272979900	
+[2018-08-26 11:46:33.874 GMT 12	Warning	100178	Messaging.GatewayConnection/GatewayClientSender_gwy.tcp://172.22.0.4:30000/272979900]	Unable to connect to gateway at address gwy.tcp://172.22.0.4:30000/272979900 on trial 0 (Exception: Connection to 172.22.0.4:30000 could not be established in 00:00:05)	
+[2018-08-26 11:46:33.875 GMT 12	Warning	100913	Messaging.GatewayConnection/GatewayClientSender_gwy.tcp://172.22.0.4:30000/272979900]	Marking gateway at address gwy.tcp://172.22.0.4:30000/272979900 as Disconnected	
+[2018-08-26 11:46:34.803 GMT 10	Debug	0	Orleans.Messaging.GatewayManager]	Found 1 knownGateways from Gateway listProvider [gwy.tcp://172.22.0.4:30000/272979900]	
+[2018-08-26 11:46:34.806 GMT 10	Information	101309	Orleans.Messaging.GatewayManager]	Refreshed the live Gateway list. Found 1 gateways from Gateway listProvider: [gwy.tcp://172.22.0.4:30000/272979900]. Picked only known live out of them. Now has 1 live Gateways: [gwy.tcp://172.22.0.4:30000/272979900]. Previous refresh time was = 08/26/2018 11:46:28	
+[2018-08-26 11:46:38.877 GMT 12	Warning	100178	Messaging.GatewayConnection/GatewayClientSender_gwy.tcp://172.22.0.4:30000/272979900]	Unable to connect to gateway at address gwy.tcp://172.22.0.4:30000/272979900 on trial 1 (Exception: Connection to 172.22.0.4:30000 could not be established in 00:00:05)	
+[2018-08-26 11:46:38.877 GMT 12	Warning	100913	Messaging.GatewayConnection/GatewayClientSender_gwy.tcp://172.22.0.4:30000/272979900]	Marking gateway at address gwy.tcp://172.22.0.4:30000/272979900 as Disconnected	
+[2018-08-26 11:46:38.881 GMT 12	Warning	100912	Messaging.GatewayConnection/GatewayClientSender_gwy.tcp://172.22.0.4:30000/272979900]	Marking gateway at address gwy.tcp://172.22.0.4:30000/272979900 as Dead in my client local gateway list.	
+[2018-08-26 11:46:38.890 GMT 12	Debug	0	Messaging.GatewayClientReceiver/gwy.tcp://172.22.0.4:30000/272979900]	Stopped agent	
+[2018-08-26 11:46:38.915 GMT 12	Debug	0	Messaging.GatewayConnection/GatewayClientSender_gwy.tcp://172.22.0.4:30000/272979900]	Stopped agent	
+[2018-08-26 11:46:38.922 GMT 12	Warning	100157	Orleans.Runtime.CallbackData]	The target silo became unavailable for message: Request *cli/f289aa86@0671f2a1->S172.22.0.4:30000:272979900*stg/17/00000011@S00000011 #2: . Target History is: <S172.22.0.4:30000:272979900:*stg/17/00000011:@S00000011>. See https://aka.ms/orleans-troubleshooting for troubleshooting help. About to break its promise.	
+[2018-08-26 11:46:38.938 GMT 5	Debug	0	Orleans.Messaging.GatewayManager]	Found 1 knownGateways from Gateway listProvider [gwy.tcp://172.22.0.4:30000/272979900]	
+[2018-08-26 11:46:38.938 GMT 5	Warning	101321	Orleans.Messaging.GatewayManager]	All gateways have previously been marked as dead. Clearing the list of dead gateways to expedite reconnection.	
+[2018-08-26 11:46:38.939 GMT 5	Information	101309	Orleans.Messaging.GatewayManager]	Refreshed the live Gateway list. Found 1 gateways from Gateway listProvider: [gwy.tcp://172.22.0.4:30000/272979900]. Picked only known live out of them. Now has 1 live Gateways: [gwy.tcp://172.22.0.4:30000/272979900]. Previous refresh time was = 08/26/2018 11:46:34	
+[2018-08-26 11:46:38.939 GMT 12	Debug	101408	Orleans.Runtime.SafeTimer]	Disposing timer Orleans.Runtime.sync.SafeTimerBase	
+[2018-08-26 11:46:38.943 GMT 12	Debug	100906	Orleans.Messaging.ClientMessageCenter]	Rejecting message: Request *cli/f289aa86@0671f2a1->S172.22.0.4:30000:272979900*stg/17/00000011@S00000011 #2: . Reason = Target silo S172.22.0.4:30000:272979900 is unavailable	
+[2018-08-26 11:46:38.951 GMT 12	Debug	0	Orleans.Runtime.MessageFactory]	Creating Unrecoverable rejection with info 'Target silo S172.22.0.4:30000:272979900 is unavailable' for Orleans.Runtime.MessageFactory at:
+   at Orleans.Runtime.MessageFactory.CreateRejectionResponse(Message request, RejectionTypes type, String info, Exception ex)
+   at Orleans.Messaging.ClientMessageCenter.RejectMessage(Message msg, String reasonFormat, Object[] reasonParams)
+   at Orleans.Messaging.ClientMessageCenter.RejectOrResend(Message msg)
+   at Orleans.Messaging.ClientMessageCenter.SendMessage(Message msg)
+   at Orleans.OutsideRuntimeClient.SendRequestMessage(GrainReference target, Message message, TaskCompletionSource`1 context, Action`2 callback, String debugContext, InvokeMethodOptions options, String genericArguments)
+   at Orleans.Runtime.GrainReferenceRuntime.SendRequest(GrainReference reference, InvokeMethodRequest request, String debugContext, InvokeMethodOptions options)
+   at Orleans.Runtime.GrainReferenceRuntime.InvokeMethodAsync[T](GrainReference reference, Int32 methodId, Object[] arguments, InvokeMethodOptions options, SiloAddress silo)
+   at Orleans.OutsideRuntimeClient.<StartInternal>b__58_2()
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Orleans.OutsideRuntimeClient.<StartInternal>b__58_2()
+   at Orleans.OutsideRuntimeClient.<StartInternal>g__ExecuteWithRetries58_3(Func`1 task, Func`2 shouldRetry)
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Orleans.OutsideRuntimeClient.<StartInternal>g__ExecuteWithRetries58_3(Func`1 task, Func`2 shouldRetry)
+   at Orleans.OutsideRuntimeClient.StartInternal(Func`2 retryFilter)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+   at System.Threading.Tasks.AwaitTaskContinuation.RunOrScheduleAction(IAsyncStateMachineBox box, Boolean allowInlining)
+   at System.Threading.Tasks.Task.RunContinuations(Object continuationObject)
+   at System.Threading.Tasks.Task`1.TrySetResult(TResult result)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetExistingTaskResult(TResult result)
+   at Orleans.OutsideRuntimeClient.<StartInternal>g__ExecuteWithRetries58_3(Func`1 task, Func`2 shouldRetry)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+   at System.Threading.Tasks.AwaitTaskContinuation.RunOrScheduleAction(IAsyncStateMachineBox box, Boolean allowInlining)
+   at System.Threading.Tasks.Task.RunContinuations(Object continuationObject)
+   at System.Threading.Tasks.Task`1.TrySetResult(TResult result)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetExistingTaskResult(TResult result)
+   at Orleans.OutsideRuntimeClient.<>c__DisplayClass58_0.<<StartInternal>b__0>d.MoveNext()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+   at System.Threading.Tasks.AwaitTaskContinuation.RunOrScheduleAction(IAsyncStateMachineBox box, Boolean allowInlining)
+   at System.Threading.Tasks.Task.RunContinuations(Object continuationObject)
+   at System.Threading.Tasks.Task`1.TrySetResult(TResult result)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetExistingTaskResult(TResult result)
+   at Orleans.Runtime.Membership.AdoNetGatewayListProvider.GetGateways()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+   at System.Threading.Tasks.AwaitTaskContinuation.RunOrScheduleAction(IAsyncStateMachineBox box, Boolean allowInlining)
+   at System.Threading.Tasks.Task.RunContinuations(Object continuationObject)
+   at System.Threading.Tasks.Task`1.TrySetResult(TResult result)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetExistingTaskResult(TResult result)
+   at Orleans.Clustering.AdoNet.Storage.RelationalOrleansQueries.ReadAsync[TResult,TAggregate](String query, Func`2 selector, Func`2 parameterProvider, Func`2 aggregator)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+   at System.Threading.Tasks.AwaitTaskContinuation.RunOrScheduleAction(IAsyncStateMachineBox box, Boolean allowInlining)
+   at System.Threading.Tasks.Task.RunContinuations(Object continuationObject)
+   at System.Threading.Tasks.Task`1.TrySetResult(TResult result)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetExistingTaskResult(TResult result)
+   at Orleans.Clustering.AdoNet.Storage.RelationalStorage.ReadAsync[TResult](String query, Action`1 parameterProvider, Func`4 selector, CancellationToken cancellationToken, CommandBehavior commandBehavior)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+   at System.Threading.Tasks.AwaitTaskContinuation.RunOrScheduleAction(IAsyncStateMachineBox box, Boolean allowInlining)
+   at System.Threading.Tasks.Task.RunContinuations(Object continuationObject)
+   at System.Threading.Tasks.Task`1.TrySetResult(TResult result)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetExistingTaskResult(TResult result)
+   at Orleans.Clustering.AdoNet.Storage.RelationalStorage.ExecuteAsync[TResult](String query, Action`1 parameterProvider, Func`5 executor, Func`4 selector, CancellationToken cancellationToken, CommandBehavior commandBehavior)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+   at System.Threading.Tasks.AwaitTaskContinuation.RunOrScheduleAction(IAsyncStateMachineBox box, Boolean allowInlining)
+   at System.Threading.Tasks.Task.RunContinuations(Object continuationObject)
+   at System.Threading.Tasks.Task`1.TrySetResult(TResult result)
+   at System.Threading.Tasks.UnwrapPromise`1.TrySetFromTask(Task task, Boolean lookForOce)
+   at System.Threading.Tasks.UnwrapPromise`1.InvokeCore(Task completingTask)
+   at System.Threading.Tasks.UnwrapPromise`1.Invoke(Task completingTask)
+   at System.Threading.Tasks.Task.RunContinuations(Object continuationObject)
+   at System.Threading.Tasks.Task`1.TrySetResult(TResult result)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetExistingTaskResult(TResult result)
+   at Orleans.Clustering.AdoNet.Storage.RelationalStorage.ExecuteReaderAsync[TResult](DbCommand command, Func`4 selector, CancellationToken cancellationToken, CommandBehavior commandBehavior)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+   at System.Threading.Tasks.AwaitTaskContinuation.RunOrScheduleAction(IAsyncStateMachineBox box, Boolean allowInlining)
+   at System.Threading.Tasks.Task.RunContinuations(Object continuationObject)
+   at System.Threading.Tasks.Task`1.TrySetResult(TResult result)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetExistingTaskResult(TResult result)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReader(CommandBehavior behavior, Boolean async, CancellationToken cancellationToken)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+   at System.Threading.Tasks.AwaitTaskContinuation.RunOrScheduleAction(IAsyncStateMachineBox box, Boolean allowInlining)
+   at System.Threading.Tasks.Task.RunContinuations(Object continuationObject)
+   at System.Threading.Tasks.Task`1.TrySetResult(TResult result)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetExistingTaskResult(TResult result)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+   at System.Threading.Tasks.AwaitTaskContinuation.RunOrScheduleAction(IAsyncStateMachineBox box, Boolean allowInlining)
+   at System.Threading.Tasks.Task.RunContinuations(Object continuationObject)
+   at System.Threading.Tasks.Task`1.TrySetResult(TResult result)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetExistingTaskResult(TResult result)
+   at Npgsql.NpgsqlConnector.<>c__DisplayClass161_0.<<ReadMessage>g__ReadMessageLong|0>d.MoveNext()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+   at System.Threading.Tasks.AwaitTaskContinuation.RunOrScheduleAction(IAsyncStateMachineBox box, Boolean allowInlining)
+   at System.Threading.Tasks.Task.RunContinuations(Object continuationObject)
+   at System.Threading.Tasks.Task`1.TrySetResult(TResult result)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetExistingTaskResult(TResult result)
+   at Npgsql.NpgsqlReadBuffer.<>c__DisplayClass31_0.<<Ensure>g__EnsureLong|0>d.MoveNext()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext()
+   at System.Net.Sockets.SocketAsyncEventArgs.OnCompleted(SocketAsyncEventArgs e)
+   at System.Net.Sockets.SocketAsyncEventArgs.ExecutionCallback(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Net.Sockets.SocketAsyncEventArgs.FinishOperationAsyncSuccess(Int32 bytesTransferred, SocketFlags flags)
+   at System.Net.Sockets.SocketAsyncEventArgs.CompletionCallback(Int32 bytesTransferred, SocketFlags flags, SocketError socketError)
+   at System.Net.Sockets.SocketAsyncEventArgs.TransferCompletionCallbackCore(Int32 bytesTransferred, Byte[] socketAddress, Int32 socketAddressSize, SocketFlags receivedFlags, SocketError socketError)
+   at System.Net.Sockets.SocketAsyncContext.BufferMemoryReceiveOperation.InvokeCallback(Boolean allowPooling)
+   at System.Net.Sockets.SocketAsyncContext.OperationQueue`1.ProcessAsyncOperation(TOperation op)
+   at System.Net.Sockets.SocketAsyncContext.OperationQueue`1.<>c.<.cctor>b__18_0(Object op)
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+	
+[2018-08-26 11:46:38.954 GMT 13	Warning	100011	Orleans.OutsideRuntimeClient]	No callback for response message: Unrecoverable Rejection (info: Target silo S172.22.0.4:30000:272979900 is unavailable) Response S172.22.0.4:30000:272979900*stg/17/00000011@S00000011->*cli/f289aa86@0671f2a1 #2: 	
+[2018-08-26 11:46:42.969 GMT 12	Debug	101404	Orleans.Runtime.SafeTimer]	Creating timer Orleans.Runtime.sync.SafeTimerBase with dueTime=00:30:00 period=-00:00:00.0010000	
+[2018-08-26 11:46:42.970 GMT 12	Debug	0	Orleans.Messaging.ClientMessageCenter]	Creating gateway to gwy.tcp://172.22.0.4:30000/272979900 for pre-addressed message	
+[2018-08-26 11:46:42.970 GMT 12	Debug	100914	Messaging.GatewayConnection/GatewayClientSender_gwy.tcp://172.22.0.4:30000/272979900]	Starting gateway connection for gateway gwy.tcp://172.22.0.4:30000/272979900	
+[2018-08-26 11:46:47.970 GMT 12	Warning	100178	Messaging.GatewayConnection/GatewayClientSender_gwy.tcp://172.22.0.4:30000/272979900]	Unable to connect to gateway at address gwy.tcp://172.22.0.4:30000/272979900 on trial 0 (Exception: Connection to 172.22.0.4:30000 could not be established in 00:00:05)	
+[2018-08-26 11:46:47.970 GMT 12	Warning	100913	Messaging.GatewayConnection/GatewayClientSender_gwy.tcp://172.22.0.4:30000/272979900]	Marking gateway at address gwy.tcp://172.22.0.4:30000/272979900 as Disconnected	
+[2018-08-26 11:46:47.999 GMT 5	Debug	0	Orleans.Messaging.GatewayManager]	Found 1 knownGateways from Gateway listProvider [gwy.tcp://172.22.0.4:30000/272979900]	
+[2018-08-26 11:46:47.999 GMT 5	Information	101309	Orleans.Messaging.GatewayManager]	Refreshed the live Gateway list. Found 1 gateways from Gateway listProvider: [gwy.tcp://172.22.0.4:30000/272979900]. Picked only known live out of them. Now has 1 live Gateways: [gwy.tcp://172.22.0.4:30000/272979900]. Previous refresh time was = 08/26/2018 11:46:38	
+[2018-08-26 11:46:48.010 GMT 12	Information	100908	Messaging.GatewayConnection/GatewayClientSender_gwy.tcp://172.22.0.4:30000/272979900]	Connected to gateway at address gwy.tcp://172.22.0.4:30000/272979900 on trial 1.	
+[2018-08-26 11:46:48.020 GMT 12	Debug	0	Messaging.GatewayClientReceiver/gwy.tcp://172.22.0.4:30000/272979900]	Started asynch agent Messaging.GatewayClientReceiver/gwy.tcp://172.22.0.4:30000/272979900	
+[2018-08-26 11:46:48.023 GMT 17	Information	0	Messaging.GatewayClientReceiver/gwy.tcp://172.22.0.4:30000/272979900]	Starting AsyncAgent Messaging.GatewayClientReceiver/gwy.tcp://172.22.0.4:30000/272979900 on managed thread 17	
+[2018-08-26 11:46:48.032 GMT 12	Debug	0	Messaging.GatewayConnection/GatewayClientSender_gwy.tcp://172.22.0.4:30000/272979900]	Started asynch agent Messaging.GatewayConnection/GatewayClientSender_gwy.tcp://172.22.0.4:30000/272979900	
+[2018-08-26 11:46:48.032 GMT 18	Information	0	Messaging.GatewayConnection/GatewayClientSender_gwy.tcp://172.22.0.4:30000/272979900]	Starting AsyncAgent Messaging.GatewayConnection/GatewayClientSender_gwy.tcp://172.22.0.4:30000/272979900 on managed thread 18	
+[2018-08-26 11:46:48.244 GMT 13	Debug	101408	Orleans.Runtime.SafeTimer]	Disposing timer Orleans.Runtime.sync.SafeTimerBase	
+[2018-08-26 11:46:48.287 GMT 5	Debug	101404	Orleans.OutsideRuntimeClient]	Creating timer Orleans.Runtime.asynTask.SafeTimerBase with dueTime=00:01:00 period=00:01:00	
+[2018-08-26 11:46:48.287 GMT 5	Debug	101404	Orleans.Runtime.AsyncTaskSafeTimer]	Creating timer Orleans.Runtime.asynTask.SafeTimerBase with dueTime=00:05:00 period=00:05:00	
+[2018-08-26 11:46:48.297 GMT 5	Debug	101404	Orleans.Runtime.SafeTimer]	Creating timer Orleans.Runtime.sync.SafeTimerBase with dueTime=00:30:00 period=-00:00:00.0010000	
+[2018-08-26 11:46:48.318 GMT 13	Debug	101408	Orleans.Runtime.SafeTimer]	Disposing timer Orleans.Runtime.sync.SafeTimerBase	
+[2018-08-26 11:46:48.325 GMT 5	Information	100929	Orleans.OutsideRuntimeClient]	---------- Started OutsideRuntimeClient with Global Client ID: C172.22.0.5:0:-272979987*cli/f289aa86@0671f2a1, client GUID ID: *cli/f289aa86	
+[2018-08-26 11:46:48.348 GMT 5	Information	0	Orleans.ClientOptionsLogger]	Configuration Orleans.Configuration.ClientMessagingOptions: 
+ClientSenderBuckets: 8192
+PreferredFamily: InterNetwork
+NetworkInterfaceName: 
+ResponseTimeout: 00:30:00
+ResponseTimeoutWithDebugger: 00:30:00
+MaxResendCount: 0
+ResendOnTimeout: False
+DropExpiredMessages: True
+BufferPoolBufferSize: 4096
+BufferPoolMaxSize: 10000
+BufferPoolPreallocationSize: 250
+PropagateActivityId: False
+	
+[2018-08-26 11:46:48.349 GMT 5	Information	0	Orleans.ClientOptionsLogger]	Configuration Orleans.Configuration.ClientStatisticsOptions: 
+PerfCountersWriteInterval: -00:00:00.0010000
+LogWriteInterval: 00:05:00
+CollectionLevel: Info
+	
+[2018-08-26 11:46:48.349 GMT 5	Information	0	Orleans.ClientOptionsLogger]	Configuration Orleans.Configuration.ClusterOptions: 
+ClusterId: PoC.Blog.BloggingCluster
+ServiceId: PoC.Blog.SiloHost
+	
+[2018-08-26 11:46:48.350 GMT 5	Information	0	Orleans.ClientOptionsLogger]	Configuration Orleans.Configuration.NetworkingOptions: 
+OpenConnectionTimeout: 00:00:05
+MaxSocketAge: 10675199.02:48:05.4775807
+	
+[2018-08-26 11:46:48.350 GMT 5	Information	100452	Orleans.LifecycleSubject]	Starting lifecycle stage -2147483648 took 17 Milliseconds	
+[2018-08-26 11:46:56.612 GMT 14	Debug	101404	Orleans.Runtime.SafeTimer]	Creating timer Orleans.Runtime.sync.SafeTimerBase with dueTime=00:30:00 period=-00:00:00.0010000	
+[2018-08-26 11:47:03.730 GMT 13	Debug	101408	Orleans.Runtime.SafeTimer]	Disposing timer Orleans.Runtime.sync.SafeTimerBase	
+[2018-08-26 11:47:12.199 GMT 12	Debug	101404	Orleans.Runtime.SafeTimer]	Creating timer Orleans.Runtime.sync.SafeTimerBase with dueTime=00:30:00 period=-00:00:00.0010000	
+[2018-08-26 11:47:12.210 GMT 13	Debug	101408	Orleans.Runtime.SafeTimer]	Disposing timer Orleans.Runtime.sync.SafeTimerBase	
+[2018-08-26 11:47:15.238 GMT 12	Debug	101404	Orleans.Runtime.SafeTimer]	Creating timer Orleans.Runtime.sync.SafeTimerBase with dueTime=00:30:00 period=-00:00:00.0010000	
+[2018-08-26 11:47:15.315 GMT 13	Debug	101408	Orleans.Runtime.SafeTimer]	Disposing timer Orleans.Runtime.sync.SafeTimerBase	
+[2018-08-26 11:47:16.335 GMT 12	Debug	101404	Orleans.Runtime.SafeTimer]	Creating timer Orleans.Runtime.sync.SafeTimerBase with dueTime=00:30:00 period=-00:00:00.0010000	
+[2018-08-26 11:47:16.350 GMT 13	Debug	101408	Orleans.Runtime.SafeTimer]	Disposing timer Orleans.Runtime.sync.SafeTimerBase	
+[2018-08-26 11:47:17.184 GMT 12	Debug	101404	Orleans.Runtime.SafeTimer]	Creating timer Orleans.Runtime.sync.SafeTimerBase with dueTime=00:30:00 period=-00:00:00.0010000	
+[2018-08-26 11:47:17.232 GMT 13	Debug	101408	Orleans.Runtime.SafeTimer]	Disposing timer Orleans.Runtime.sync.SafeTimerBase	
+[2018-08-26 11:47:17.936 GMT 12	Debug	101404	Orleans.Runtime.SafeTimer]	Creating timer Orleans.Runtime.sync.SafeTimerBase with dueTime=00:30:00 period=-00:00:00.0010000	
+[2018-08-26 11:47:17.969 GMT 13	Debug	101408	Orleans.Runtime.SafeTimer]	Disposing timer Orleans.Runtime.sync.SafeTimerBase	
+[2018-08-26 11:47:18.607 GMT 12	Debug	101404	Orleans.Runtime.SafeTimer]	Creating timer Orleans.Runtime.sync.SafeTimerBase with dueTime=00:30:00 period=-00:00:00.0010000	
+[2018-08-26 11:47:18.632 GMT 13	Debug	101408	Orleans.Runtime.SafeTimer]	Disposing timer Orleans.Runtime.sync.SafeTimerBase	
+[2018-08-26 11:47:19.287 GMT 12	Debug	101404	Orleans.Runtime.SafeTimer]	Creating timer Orleans.Runtime.sync.SafeTimerBase with dueTime=00:30:00 period=-00:00:00.0010000	
+[2018-08-26 11:47:19.331 GMT 13	Debug	101408	Orleans.Runtime.SafeTimer]	Disposing timer Orleans.Runtime.sync.SafeTimerBase	
+[2018-08-26 11:47:19.939 GMT 14	Debug	101404	Orleans.Runtime.SafeTimer]	Creating timer Orleans.Runtime.sync.SafeTimerBase with dueTime=00:30:00 period=-00:00:00.0010000	
+[2018-08-26 11:47:19.962 GMT 13	Debug	101408	Orleans.Runtime.SafeTimer]	Disposing timer Orleans.Runtime.sync.SafeTimerBase	
+[2018-08-26 11:47:20.482 GMT 14	Debug	101404	Orleans.Runtime.SafeTimer]	Creating timer Orleans.Runtime.sync.SafeTimerBase with dueTime=00:30:00 period=-00:00:00.0010000	
+[2018-08-26 11:47:20.500 GMT 13	Debug	101408	Orleans.Runtime.SafeTimer]	Disposing timer Orleans.Runtime.sync.SafeTimerBase	
+[2018-08-26 11:47:21.054 GMT 14	Debug	101404	Orleans.Runtime.SafeTimer]	Creating timer Orleans.Runtime.sync.SafeTimerBase with dueTime=00:30:00 period=-00:00:00.0010000	
+[2018-08-26 11:47:21.072 GMT 13	Debug	101408	Orleans.Runtime.SafeTimer]	Disposing timer Orleans.Runtime.sync.SafeTimerBase	
+[2018-08-26 11:47:21.634 GMT 5	Debug	101404	Orleans.Runtime.SafeTimer]	Creating timer Orleans.Runtime.sync.SafeTimerBase with dueTime=00:30:00 period=-00:00:00.0010000	
+[2018-08-26 11:47:21.702 GMT 13	Debug	101408	Orleans.Runtime.SafeTimer]	Disposing timer Orleans.Runtime.sync.SafeTimerBase	
+[2018-08-26 11:47:22.166 GMT 5	Debug	101404	Orleans.Runtime.SafeTimer]	Creating timer Orleans.Runtime.sync.SafeTimerBase with dueTime=00:30:00 period=-00:00:00.0010000	
+[2018-08-26 11:47:22.170 GMT 13	Debug	101408	Orleans.Runtime.SafeTimer]	Disposing timer Orleans.Runtime.sync.SafeTimerBase	
+[2018-08-26 11:47:22.713 GMT 16	Debug	101404	Orleans.Runtime.SafeTimer]	Creating timer Orleans.Runtime.sync.SafeTimerBase with dueTime=00:30:00 period=-00:00:00.0010000	
+[2018-08-26 11:47:22.747 GMT 13	Debug	101408	Orleans.Runtime.SafeTimer]	Disposing timer Orleans.Runtime.sync.SafeTimerBase	
+[2018-08-26 11:47:23.424 GMT 12	Debug	101404	Orleans.Runtime.SafeTimer]	Creating timer Orleans.Runtime.sync.SafeTimerBase with dueTime=00:30:00 period=-00:00:00.0010000	

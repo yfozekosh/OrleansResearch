@@ -5,19 +5,26 @@ VisualStudioVersion = 15.0.28010.2003
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PoC.Blog.SiloHost", "PoC.Blog.SiloHost\PoC.Blog.SiloHost.csproj", "{4FFFC160-B375-402C-853C-2C02267EA33F}"
 EndProject
-Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{FC9E317B-E1F5-44AF-ACBD-207BC568B20F}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DBDeploy", "DBDeploy", "{40F64164-3F99-47EE-88CA-4CF1544433DC}"
 	ProjectSection(SolutionItems) = preProject
-		blogging.db.srv.dockerfile = blogging.db.srv.dockerfile
-		blogging_000_init.sql = blogging_000_init.sql
-		clustering_000_init.sql = clustering_000_init.sql
-		orleans.db.srv.dockerfile = orleans.db.srv.dockerfile
+		DBDeploy\blogging.db.srv.dockerfile = DBDeploy\blogging.db.srv.dockerfile
+		DBDeploy\blogging_000_init.sql = DBDeploy\blogging_000_init.sql
+		DBDeploy\clustering_000_init.sql = DBDeploy\clustering_000_init.sql
+		DBDeploy\orleans.db.srv.dockerfile = DBDeploy\orleans.db.srv.dockerfile
 	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PoC.Blog.GrainContracts", "PoC.Blog.GrainContracts\PoC.Blog.GrainContracts.csproj", "{1ADC9FAC-6BE9-4FCF-85FD-514887A1A163}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PoC.Blog.GrainImplementation", "PoC.Blog.GrainImplementation\PoC.Blog.GrainImplementation.csproj", "{B05737A9-4C02-49A6-B36F-98480CB74EDD}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{C463CE02-41FE-40A0-95E0-6B9B037DDF73}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution-Items", "Solution-Items", "{690FFDCE-584C-4BFC-9C39-F4FC182A6627}"
+	ProjectSection(SolutionItems) = preProject
+		Solution-Items\db-settings.json = Solution-Items\db-settings.json
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PoC.Blog.WebClient", "PoC.Blog.WebClient\PoC.Blog.WebClient.csproj", "{83E73731-C6A1-4874-9645-E5C060F88CE2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,10 +36,6 @@ Global
 		{4FFFC160-B375-402C-853C-2C02267EA33F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4FFFC160-B375-402C-853C-2C02267EA33F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4FFFC160-B375-402C-853C-2C02267EA33F}.Release|Any CPU.Build.0 = Release|Any CPU
-		{FC9E317B-E1F5-44AF-ACBD-207BC568B20F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{FC9E317B-E1F5-44AF-ACBD-207BC568B20F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{FC9E317B-E1F5-44AF-ACBD-207BC568B20F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{FC9E317B-E1F5-44AF-ACBD-207BC568B20F}.Release|Any CPU.Build.0 = Release|Any CPU
 		{1ADC9FAC-6BE9-4FCF-85FD-514887A1A163}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{1ADC9FAC-6BE9-4FCF-85FD-514887A1A163}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1ADC9FAC-6BE9-4FCF-85FD-514887A1A163}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -41,6 +44,14 @@ Global
 		{B05737A9-4C02-49A6-B36F-98480CB74EDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B05737A9-4C02-49A6-B36F-98480CB74EDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B05737A9-4C02-49A6-B36F-98480CB74EDD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C463CE02-41FE-40A0-95E0-6B9B037DDF73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C463CE02-41FE-40A0-95E0-6B9B037DDF73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C463CE02-41FE-40A0-95E0-6B9B037DDF73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C463CE02-41FE-40A0-95E0-6B9B037DDF73}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83E73731-C6A1-4874-9645-E5C060F88CE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83E73731-C6A1-4874-9645-E5C060F88CE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83E73731-C6A1-4874-9645-E5C060F88CE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83E73731-C6A1-4874-9645-E5C060F88CE2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

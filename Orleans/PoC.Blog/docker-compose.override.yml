@@ -1,1 +1,9 @@
 version: '3.4'
+
+services:
+  poc.blog.webclient:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    ports:
+      - "80"
+
